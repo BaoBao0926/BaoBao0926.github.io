@@ -1,4 +1,6 @@
-### Hey, This Is Muyi Bao! 👋👋
+### Hey, This is Muyi Bao! 👋👋
+
+## Hey!!! Welcome, my friend, Zongheng Liu. Nice to meet you!!!!!!!!!!!!
 
 I am reading in XJTLU, Y3 student, majoring in Computer Science and Technology
 
