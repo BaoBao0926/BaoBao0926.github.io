@@ -1,2 +1,5 @@
 ### Hey, This Is Muyi Bao! 👋👋
-123123123123
+
+I am reading in XJTLU, Y3 student, majoring in Computer Science and Technology
+
+This is my first project: AlexCapsNet
