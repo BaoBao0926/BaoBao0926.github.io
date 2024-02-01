@@ -1,6 +1,6 @@
 ### Hey, This is Muyi Bao! 👋👋
 
-## Hey!!! Welcome, my friend, Wenwen Wang. Nice to meet you!!!!!!!!!!!!
+## Hey!!! Welcome, my friend, Yiran Yang. Nice to meet you!!!!!!!!!!!!
 
 I am a jounior student in XJTLU, majoring in Computer Science and Technology
 
