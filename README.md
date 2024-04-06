@@ -1,6 +1,6 @@
 ### Hey, This is Muyi Bao! 👋👋
 
-Hi there, I'm Muyi Bao (包沐亦). Now I'm a undergraduate student from China.
+Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 
 **Talking about Personal Stuffs:**
