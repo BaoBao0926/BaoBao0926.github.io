@@ -1,5 +1,11 @@
 ### Hey, This is Muyi Bao! 👋👋
 
+---
+
+[English](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/main/README.md) | [简体中文](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/main/README_CHINESE.md)
+
+---
+
 Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 
