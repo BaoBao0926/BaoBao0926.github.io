@@ -27,7 +27,23 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
    
 </details>
 
-
+<details> 
+   
+   <summary>
+      The projects I have reproduced (i.e papers) as follows: 
+   </summary>   
+   
+   <br />
+   
+   Overview
+   
+   1.Capsule Network. Image Classification
+   
+   2.U-Net. Segmentation
+   
+   3.Learning without Forgetting. Classification, Continual Learning, Knowledge Distillation
+   
+</details>
 
 
 <!--  -->
