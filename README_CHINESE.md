@@ -12,13 +12,29 @@
 - 📫 如果想要联系我，请通过邮箱Muyi.Bao21@xjtlu.edu.cn联系我
 - 🤔 我是十分感兴趣于深度学习和计算机视觉. 
 
-<details> <summary> 我做过的项目： </summary>   <br />
+<details> 
+   <summary> 
+      我做过的项目： 
+   </summary>   
+   <br />
+   
    [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=BaoBao0926&repo=AlexCapsNet)](https://github.com/BaoBao0926/AlexCapsNet) 
+   
 </details>
 
 <details>
-<summary> 我复现过的项目： </summary>   <br />
-   [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=BaoBao0926&repo=AlexCapsNet)](https://github.com/BaoBao0926/AlexCapsNet) 
+<summary> 
+   我复现过的项目： 
+</summary>   <br />
+   
+   Overview
+   
+   1.Capsule Network. Image Classification
+   
+   2.U-Net. Segmentation
+   
+   3.Learning without Forgetting. Classification, Continual Learning, Knowledge Distillation
+   
 </details>
 
 
