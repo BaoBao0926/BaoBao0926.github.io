@@ -24,16 +24,16 @@
 
 <details>
 <summary> 
-   我复现过的[项目](https://github.com/BaoBao0926/Overview-of-Reproduced-Project)： 
+   我复现过的项目： 
 </summary>   <br />
    
-   Overview
+   [Overview](https://github.com/BaoBao0926/Overview-of-Reproduced-Project): 这里给出了简单的介绍和我对这些文章简单的思考
    
-   1.Capsule Network. Image Classification
+   1.Capsule Network. 分类(Classification)
    
-   2.U-Net. Segmentation
+   2.U-Net. 分割(Segmentation)
    
-   3.Learning without Forgetting. Classification, Continual Learning, Knowledge Distillation
+   3.Learning without Forgetting. 分类(Classification), 持续学习(Continual Learning), 知识蒸馏(Knowledge Distillation)
    
 </details>
 
