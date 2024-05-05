@@ -10,7 +10,7 @@
 
 - 👨🏽‍💻 我现在是一名大三学生在西交利物浦大学[(XJTLU)](https://www.xjtlu.edu.cn/zh/)的大三学生，正在读计算机科学与技术专业。更多细节点击here
 - 📫 如果想要联系我，请通过邮箱Muyi.Bao21@student.xjtlu.edu.cn联系我
-- 🤔 我是十分感兴趣于深度学习和计算机视觉. 
+- 🤔 我是十分感兴趣于深度学习和计算机视觉. 这个[仓库](https://github.com/BaoBao0926/Overview-of-Reproduced-Project)记录了我复现过的代码和我的想法思考。
 
 <details> 
    <summary> 
@@ -22,20 +22,7 @@
    
 </details>
 
-<details>
-<summary> 
-   我复现过的项目： 
-</summary>   <br />
-   
-   [Overview](https://github.com/BaoBao0926/Overview-of-Reproduced-Project): 这里给出了简单的介绍和我对这些文章简单的思考
-   
-   1.Capsule Network. 分类(Classification)
-   
-   2.U-Net. 分割(Segmentation)
-   
-   3.Learning without Forgetting. 分类(Classification), 持续学习(Continual Learning), 知识蒸馏(Knowledge Distillation)
-   
-</details>
+
 
 
 
