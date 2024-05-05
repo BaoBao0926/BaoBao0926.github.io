@@ -13,7 +13,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 - 👨🏽‍💻 I’m currently a jounior student in Xi'an Jiaotong Liver-pool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/), pursuing Bachelor's degree in Computer Science and Techonology. More details click here.
 - 📫 Please email via Muyi.Bao21@student.xjtlu.edu.cn to reach me if you want to know more about me.
-- 🤔 I'm very interested in Deep-Learning-Based Computer Vision.
+- 🤔 I'm very interested in Deep-Learning-Based Computer Vision. This [repository](https://github.com/BaoBao0926/Overview-of-Reproduced-Project) store the code I reproduced.
 
 <details> 
    
@@ -27,26 +27,12 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
    
 </details>
 
-<details> 
-   
-   <summary>
-      The projects I have reproduced (i.e papers) as follows: 
-   </summary>   
-   
-   <br />
-   
-   [Overview](https://github.com/BaoBao0926/Overview-of-Reproduced-Project): This gives the brief introduction to the reproduced project
-   
-   1.Capsule Network. Image Classification
-   
-   2.U-Net. Segmentation
-   
-   3.Learning without Forgetting. Classification, Continual Learning, Knowledge Distillation
-   
-</details>
 
 
-<!--  -->
+
+
+
+<!-- 记录一下有用的代码 -->
 <!--  
 <details>
   
