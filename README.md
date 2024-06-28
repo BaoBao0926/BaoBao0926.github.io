@@ -13,7 +13,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 - 👨🏽‍💻 I’m currently a jounior student in Xi'an Jiaotong Liver-pool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/), pursuing Bachelor's degree in Computer Science and Techonology. More details click here.
 - 📫 Please email via Muyi.Bao21@student.xjtlu.edu.cn to reach me if you want to know more about me.
-- 🤔 I'm very interested in Deep-Learning-Based Computer Vision. 
+- 🤔 I'm doing a computer vision project on senmantic segmentation and continual learning on medical images. 
 
 
    
