@@ -20,22 +20,21 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 **The projects I have done as follows:** 
  
+- ASP-VMUNet: Atrous Shifted Parallel Vision Mamba U-Net for Skin Lesion Segmentation [Repository](https://github.com/BaoBao0926/ASP-VMUNet)
+- Comparative Performance Analysis of Rendering Optimization Methods in Unity Tuanjie Engine, Unity Global and Unreal Engine [Repository](https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method)
+- AlexCapsNet: An Integrated Architecture for Image Classification with Background Noise [Repository](https://github.com/BaoBao0926/AlexCapsNet)
+
+  
+   
+
+**ITEMs** 
 - This [repository](https://github.com/BaoBao0926/Paper_reproducing) records the code I have reproduced and some thoughts.
 - This [repository](https://github.com/BaoBao0926/Paper_reading) records some thoughts and insight about the papers that I read and some ideas I have thought.
 
-  
-  [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=BaoBao0926&repo=ASP-VMUNet)](https://github.com/BaoBao0926/ASP-VMUNet)
-  [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=BaoBao0926&repo=Comparative-Performance-Analysis-of-Rendering-Optimization-Method)](https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method)
-  [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=BaoBao0926&repo=AlexCapsNet)](https://github.com/BaoBao0926/AlexCapsNet)    
-   
 
 
 
-
-
-
-
-<!-- 记录一下有用的代码 -->
+<!-- useful code -->
 <!--  
 <details>
   
