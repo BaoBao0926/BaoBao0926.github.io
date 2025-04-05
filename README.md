@@ -27,10 +27,6 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
   
    
 
-**ITEMs** 
-- This [repository](https://github.com/BaoBao0926/Paper_reproducing) records the code I have reproduced and some thoughts.
-- This [repository](https://github.com/BaoBao0926/Paper_reading) records some thoughts and insight about the papers that I read and some ideas I have thought.
-
 
 
 
