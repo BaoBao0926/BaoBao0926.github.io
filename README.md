@@ -11,20 +11,15 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 **Talking about Personal Stuffs:**
 
-- 👨🏽‍💻 I’m currently a jounior student in Xi'an Jiaotong Liver-pool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/), pursuing Bachelor's degree in Computer Science and Techonology. More details click here.
+- 👨🏽‍💻 I’m currently a senior student in Xi'an Jiaotong Liver-pool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/), pursuing Bachelor's degree in Computer Science and Techonology.
 - 📫 Please email via Muyi.Bao21@student.xjtlu.edu.cn to reach me if you want to know more about me.
-- 🤔 I'm doing a computer vision project on monocular 3D detection.
+- 🤔 I'm doing a computer vision project on clustering-based downsampling methods
 
 
    
 
 **Research Projects:** 
  
-- Comparative Performance Analysis of Rendering Optimization Methods in Unity Tuanjie Engine, Unity Global and Unreal Engine [Repository](https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method)
-- AlexCapsNet: An Integrated Architecture for Image Classification with Background Noise [Repository](https://github.com/BaoBao0926/AlexCapsNet)
-
-
-
 <img src="https://github.com/BaoBao0926/ASP-VMUNet/blob/main/figure/ASPVMUnet.png" width="400" align="left" />
 
 **ASP-VMUNet: Atrous Shifted Parallel Vision Mamba U-Net for Skin Lesion Segmentation**
@@ -54,6 +49,20 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 <br clear="both" />
 
+
+<img src="https://github.com/BaoBao0926/AlexCapsNet/blob/main/picture/show.png" width="400" align="left" />
+
+**AlexCapsNet: An Integrated Architecture for Image Classification with Background Noise**
+
+**Authors**: Muyi Bao, Ming Xu, Nanlin Jin
+
+**Brief Description**: A CapsNet-based model for image classification task.
+
+**Venue**: IEEE Access, Feb 2025
+
+[Repository](https://github.com/BaoBao0926/AlexCapsNet) | [Paper](https://ieeexplore.ieee.org/abstract/document/10900363)
+
+<br clear="both" />
 
 
 
