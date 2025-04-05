@@ -35,7 +35,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 <br clear="both" />
 
 
-<img src="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method/blob/main/figure/3.1.png" width="400" align="left" />
+<img src="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method/blob/main/figure/show.png" width="400" align="left" />
 
 **Comparative Performance Analysis of Rendering Optimization Methods in Unity Tuanjie Engine, Unity Global and Unreal Engine**
 
