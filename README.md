@@ -43,7 +43,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 **Brief Description**: A comparative performance study of Level of Detail (Unity Global), Virtual Geometry (Tuanjie Engine) and Nanite (Unreal Engine)
 
-**Venue**: 2024 IEEE International Conference on Ubiquitous Intelligence and Computing (UIC), Dec 2024
+**Venue**: UIC2024, Dec 2024
 
 [Repository](https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method) | [Paper](https://ieeexplore.ieee.org/abstract/document/10925167)
 
