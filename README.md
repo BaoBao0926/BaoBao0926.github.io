@@ -50,7 +50,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 <br clear="both" />
 
 
-<img src="https://github.com/BaoBao0926/AlexCapsNet/blob/main/figure/show.png" width="400" align="left" />
+<img src="https://github.com/BaoBao0926/AlexCapsNet/blob/main/figure/show1.png" width="400" align="left" />
 
 **AlexCapsNet: An Integrated Architecture for Image Classification with Background Noise**
 
