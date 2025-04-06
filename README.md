@@ -20,6 +20,23 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 **Research Projects:** 
  
+<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/show.jpg" width="400" align="left" />
+
+**Vision Mamba in Remote Sensing: A Comprehensive Survey of Techniques, Applications and Outlook**
+
+**Authors**: Muyi Bao, ... , Guangliang Cheng
+
+**Brief Description**: A survey of Vision Mamba in Remote Sensing
+
+**Venue**: 
+
+[Repository](https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/show.jpg) | Paper
+
+<br clear="both" />
+
+
+
+
 <img src="https://github.com/BaoBao0926/ASP-VMUNet/blob/main/figure/ASPVMUnet.png" width="400" align="left" />
 
 **ASP-VMUNet: Atrous Shifted Parallel Vision Mamba U-Net for Skin Lesion Segmentation**
