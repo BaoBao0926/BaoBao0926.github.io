@@ -30,7 +30,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 **Venue**: 
 
-[Repository](https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/show.jpg) | Paper
+[Repository](https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main) | Paper
 
 <br clear="both" />
 
