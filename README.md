@@ -13,7 +13,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 - 👨🏽‍💻 I’m currently a senior student in Xi'an Jiaotong Liver-pool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/), pursuing Bachelor's degree in Computer Science and Techonology.
 - 📫 Please email via Muyi.Bao21@student.xjtlu.edu.cn to reach me if you want to know more about me.
-- 🤔 I'm doing a computer vision project on clustering-based downsampling methods
+- 🤔 I'm doing a computer vision project on clustering-based downsampling methods and a survey paper about Mamba in remote sensing.
 
 
    
