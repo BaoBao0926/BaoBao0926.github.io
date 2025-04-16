@@ -44,7 +44,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 **Authors**: Muyi Bao, ...
 
-**Brief Description**: A clustering-based downsampling method.
+**Brief Description**: A clustering-based downsampling method (to replace grid-based methods, such as maxpooling.)
 
 **Venue**: 
 
