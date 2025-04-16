@@ -22,7 +22,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
  ---
  
-<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/show.jpg" width="400" align="left" />
+<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/outline.png" width="400" align="left" />
 
 **Vision Mamba in Remote Sensing: A Comprehensive Survey of Techniques, Applications and Outlook**
 
