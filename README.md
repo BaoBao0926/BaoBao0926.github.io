@@ -19,6 +19,8 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
    
 
 **Research Projects:** 
+
+ ---
  
 <img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/show.jpg" width="400" align="left" />
 
@@ -33,8 +35,8 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 [Repository](https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main) | Paper
 
 <br clear="both" />
-<br>
 
+---
 
 <img src="https://github.com/BaoBao0926/FTCFormer/blob/main/Assets/architecture.png" width="400" align="left" />
 
@@ -51,7 +53,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 <br clear="both" />
 <br>
 
-
+---
 
 <img src="https://github.com/BaoBao0926/ASP-VMUNet/blob/main/figure/ASPVMUnet.png" width="400" align="left" />
 
@@ -67,6 +69,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 <br clear="both" />
 
+---
 
 <img src="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method/blob/main/figure/show.png" width="400" align="left" />
 
@@ -82,6 +85,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 <br clear="both" />
 
+---
 
 <img src="https://github.com/BaoBao0926/AlexCapsNet/blob/main/figure/show1.png" width="400" align="left" />
 
@@ -97,7 +101,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 <br clear="both" />
 
-
+---
 
 
 
