@@ -36,6 +36,22 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 <br>
 
 
+<img src="https://github.com/BaoBao0926/FTCFormer/blob/main/Assets/architecture.png" width="400" align="left" />
+
+**FTCFormer: Fuzzy Token Clustering Transformer for Image Classification**
+
+**Authors**: Muyi Bao, ...
+
+**Brief Description**: A clustering-based downsampling method.
+
+**Venue**: 
+
+[Repository](https://github.com/BaoBao0926/FTCFormer/tree/main) | Paper
+
+<br clear="both" />
+<br>
+
+
 
 <img src="https://github.com/BaoBao0926/ASP-VMUNet/blob/main/figure/ASPVMUnet.png" width="400" align="left" />
 
