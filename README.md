@@ -30,7 +30,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 **Brief Description**: A survey of Vision Mamba in Remote Sensing
 
-**Venue**: 
+**Venue**: arXiv, May 2025
 
 [Repository](https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main) | [Paper](https://arxiv.org/abs/2505.00630)
 
@@ -42,7 +42,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 **FTCFormer: Fuzzy Token Clustering Transformer for Image Classification**
 
-**Authors**: Muyi Bao, ...
+**Authors**: Muyi Bao, Changyu Zeng, Yifan Wang, Zhengni Yang, Zimu Wang, Guangliang Cheng, Jun Qi and Wei Wang
 
 **Brief Description**: A clustering-based downsampling method (to replace grid-based methods, such as maxpooling.)
 
