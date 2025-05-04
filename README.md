@@ -22,7 +22,8 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
  ---
  
-<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/outline111.png" width="400" height="320" align="left" />
+<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/outline111.png" width="400"  align="left" />
+<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/black" width="400"  align="left" />
 
 **Vision Mamba in Remote Sensing: A Comprehensive Survey of Techniques, Applications and Outlook**
 
@@ -38,7 +39,8 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
 ---
 
-<img src="https://github.com/BaoBao0926/FTCFormer/blob/main/Assets/architecture.png" width="400" height="280" align="left" />
+<img src="https://github.com/BaoBao0926/FTCFormer/blob/main/Assets/architecture.png" width="400" align="left" />
+<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/black" width="400"  align="left" />
 
 **FTCFormer: Fuzzy Token Clustering Transformer for Image Classification**
 
