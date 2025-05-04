@@ -22,17 +22,17 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 
  ---
  
-<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/outline.png" width="400" align="left" />
+<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/show.png" width="400" align="left" />
 
 **Vision Mamba in Remote Sensing: A Comprehensive Survey of Techniques, Applications and Outlook**
 
-**Authors**: Muyi Bao, ... , Guangliang Cheng
+**Authors**: Muyi Bao, Shuchang Lyu, Zhaoyang Xu, Huiyu Zhou, Jinchang Ren, Shiming Xiang, Xiangtai Li, Guangliang Cheng
 
 **Brief Description**: A survey of Vision Mamba in Remote Sensing
 
 **Venue**: 
 
-[Repository](https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main) | Paper
+[Repository](https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main) | [Paper](https://arxiv.org/abs/2505.00630)
 
 <br clear="both" />
 
