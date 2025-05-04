@@ -40,7 +40,8 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
 ---
 
 <img src="https://github.com/BaoBao0926/FTCFormer/blob/main/Assets/architecture.png" width="400" align="left" />
-<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/black" width="400"  align="left" />
+<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/black" width="400" align="left" />
+<img src="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/blob/main/Assets/black" width="400" align="left" />
 
 **FTCFormer: Fuzzy Token Clustering Transformer for Image Classification**
 
