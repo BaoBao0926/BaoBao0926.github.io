@@ -2,23 +2,21 @@
 
 ---
 
-[English](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/main/README.md) | [简体中文](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/main/README_CHINESE.md)
 
----
-
-Hi there, I'm Muyi Bao (包沐亦). Now I'm an undergraduate student from China.
+Hi there, I'm Muyi Bao (包沐亦). Now I'm a master student in Carnegie Mellon University.
 
 
 **Talking about Personal Stuffs:**
 
-- 👨🏽‍💻 I’m currently a senior student in Xi'an Jiaotong Liver-pool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/), pursuing Bachelor's degree in Computer Science and Techonology.
-- 📫 Please email via Muyi.Bao21@student.xjtlu.edu.cn to reach me if you want to know more about me.
-- 🤔 I'm doing a computer vision project on clustering-based downsampling methods and a survey paper about Mamba in remote sensing.
+- 🎓 Education
+   - BEng in Computer Science abd Technology (Top 5%) – Xi’an Jiaotong-Liverpool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/)
+   - MS in Electric and Computer Engineering - Carnegie Mellon University (CMU) (Current)
+- 🔍 Research Interests
+   - Computer Vision (3 regular papers and 1 survey paper during my undergrad)
+   - Multimodal Learning & LLMs (Future focus)
+- 📫 Please email via muyib@andrew.cmu.edu to reach me if you want to know more about me.
 
-
-   
-
-
+---
 
 
 |**Research Projects:**  |  | 
