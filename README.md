@@ -13,7 +13,7 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm a master student in Carnegie Mellon 
    - MS in Electric and Computer Engineering - Carnegie Mellon University (CMU) (Current)
 - 🔍 Research Interests
    - Computer Vision (3 regular papers and 1 survey paper during my undergrad)
-   - Multimodal Learning & LLMs (Future focus)
+   - Undecided for Future focus (maybe multimodal/LLM/Generative AI, all seem interesting)
 - 📫 Please email via muyib@andrew.cmu.edu to reach me if you want to know more about me.
 
 ---
