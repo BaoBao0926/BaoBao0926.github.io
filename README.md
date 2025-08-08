@@ -9,10 +9,10 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm a master student (M.S. in ECE) in Ca
 **Talking about Personal Stuffs:**
 
 - 🎓 Education
-   - BEng in Computer Science abd Technology (3.92/4.0, Top 5%) – Xi’an Jiaotong-Liverpool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/)
-   - M.S. in Electric and Computer Engineering - Carnegie Mellon University [(CMU)](https://www.cmu.edu/) (Current)
+   - BEng in Computer Science abd Technology (3.92/4.0, Top 5%) – Xi’an Jiaotong-Liverpool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/) - 2021-2025
+   - M.S. in Electrical and Computer Engineering - Carnegie Mellon University [(CMU)](https://www.cmu.edu/) (Current) - 2025-2027
 - 🔍 Research Interests
-   - Computer Vision (3 regular papers and 1 survey paper during my undergrad)
+   - Computer Vision (3 regular papers and 1 survey paper during my undergrad, focusing on classic CV tasks, i.e. classification, segmentatrion and classification)
    - Undecided for Future focus (maybe multimodal/LLM/Generative AI/Robotics, all seem interesting)
 - 📫 Please email via muyib@andrew.cmu.edu to reach me if you want to know more about me.
 - 🏸 Now, I love play badminton! On June 2025, I completed a half marathon (though it took me 2 hours and 40 minutes).
