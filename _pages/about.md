@@ -1,14 +1,14 @@
 ---
 permalink: /
 author_profile: true
+title: "Hi there, I'am Muyi Bao(包沐亦)"
 redirect_from: 
   - /about/
   - /about.html
 ---
 
 
-
-Hi there, I'm Muyi Bao (包沐亦). Now I'm a master student (M.S. in ECE) in Carnegie Mellon University. Previously I obtained my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong Liverpool University in 2025. During undergraduate, I was luck to have collaboration with Prof. [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage), Prof. [Wei Wang](https://scholar.xjtlu.edu.cn/en/persons/WeiWang03) and Prof. [Ming Xu](https://scholar.xjtlu.edu.cn/en/persons/MingXu).
+Now I'm a master student (M.S. in ECE) in Carnegie Mellon University. Previously I obtained my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong Liverpool University in 2025. During undergraduate, I was luck to have collaboration with Prof. [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage), Prof. [Wei Wang](https://scholar.xjtlu.edu.cn/en/persons/WeiWang03) and Prof. [Ming Xu](https://scholar.xjtlu.edu.cn/en/persons/MingXu).
 
 
 **Talking about Personal Stuffs:**
