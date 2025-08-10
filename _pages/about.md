@@ -10,6 +10,7 @@ redirect_from:
 
 Now I'm a master student (M.S. in ECE) in Carnegie Mellon University. Previously I obtained my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong Liverpool University in 2025. During undergraduate, I was luck to have collaboration with Prof. [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage), Prof. [Wei Wang](https://scholar.xjtlu.edu.cn/en/persons/WeiWang03) and Prof. [Ming Xu](https://scholar.xjtlu.edu.cn/en/persons/MingXu).
 
+My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/Muyi%20Bao%20CV.pdf) (updated in 2025.08.10).
 
 **Talking about Personal Stuffs:**
 
