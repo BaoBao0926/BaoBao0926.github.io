@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Main Page"
 title_separator          : "-"
 name                     : &name "Muyi Bao"
 description              : &description "personal description"
