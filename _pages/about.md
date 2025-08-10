@@ -14,7 +14,7 @@ Now I'm a master student (M.S. in ECE) in Carnegie Mellon University. Previously
 **Talking about Personal Stuffs:**
 
 - 🎓 Education
-   - BEng in Computer Science abd Technology (3.92/4.0, Top 5%) – Xi’an Jiaotong-Liverpool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/) - 2021-2025
+   - BEng in Computer Science abd Technology (3.92/4.0, Top 5%, [Transcrip](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/Muyi%20Bao%20Transcript_Bachalor.pdf)) – Xi’an Jiaotong-Liverpool University [(XJTLU)](https://www.xjtlu.edu.cn/zh/) - 2021-2025
    - M.S. in Electrical and Computer Engineering - Carnegie Mellon University [(CMU)](https://www.cmu.edu/) (Current) - 2025-2027
 - 🔍 Research Interests
    - Computer Vision (3 regular papers and 1 survey paper during my undergrad, focusing on classic CV tasks, i.e. classification, segmentatrion and classification)
