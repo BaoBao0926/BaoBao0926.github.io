@@ -22,11 +22,11 @@ repository               : https://github.com/BaoBao0926
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/personal_iamge.png"
   name             : "Muyi Bao(包沐亦)"
   pronouns         : # example: "she/her"  
   # bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  location         : "Pittsburgn, US"
   employer         : "Carneige Mellon University"
   uri              : # URL
   email            : "muyib@andrew.edu.cn" 
