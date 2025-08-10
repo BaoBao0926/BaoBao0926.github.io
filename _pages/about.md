@@ -20,5 +20,5 @@ Hi there, I'm Muyi Bao (包沐亦). Now I'm a master student (M.S. in ECE) in Ca
 - 🔍 Research Interests
    - Computer Vision (3 regular papers and 1 survey paper during my undergrad, focusing on classic CV tasks, i.e. classification, segmentatrion and classification)
    - Undecided for Future focus (maybe multimodal/LLM/Generative AI/Robotics, all seem interesting)
-- 📫 Please email via muyib@andrew.cmu.edu to reach me if you want to know more about me.
+- 📫 Email via muyib@andrew.cmu.edu to reach me if you want to know more about me.
 - 🏸 Now, I love play badminton! On June 2025, I completed a half marathon (though it took me 2 hours and 40 minutes).
