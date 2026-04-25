@@ -34,17 +34,15 @@ My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io
   - Email: [muyib@andrew.cmu.edu](mailto:muyib@andrew.cmu.edu)
 
 
+
 ## News
-- **[Now]** I am working on Vision-and-Language Navigation, where I fine-tune vision-language models to predict navigable goal pixels for embodied navigation (most recent work predict actions). This work is being prepared for submission to CoRL 2026.
 
-- **[Feb. 2026]** Our survey paper, [Vision Mamba in Remote Sensing](https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main), was accepted by *Remote Sensing*.
-
-- **[Aug. 2025]** I joined Carnegie Mellon University as an M.S. student in Electrical and Computer Engineering.
-
-- **[Jul. 2025]** Our paper, [FTCFormer](https://github.com/BaoBao0926/FTCFormer/tree/main), was accepted by ECAI 2025, the European Conference on Artificial Intelligence.
-
-- **[Jun. 2025]** I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University.
-
-- **[Feb. 2025]** My first paper, [AlexCapsNet](https://github.com/BaoBao0926/AlexCapsNet), was accepted by *IEEE Access*.
-
-- **[Dec. 2024]** One paper on [Performance Analysis of Rendering optimization on Game Engine](https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method) was accepted by UIC 2024, IEEE International Conference on Ubiquitous Intelligence and Computing.
+<ul style="font-size: 0.9em; line-height: 1.45; margin-top: 0;">
+  <li><strong>[Now]</strong> I am working on Vision-and-Language Navigation, where I fine-tune vision-language models to predict navigable goal pixels for embodied navigation (most recent work predict actions). This work is being prepared for submission to CoRL 2026.</li>
+  <li><strong>[Feb. 2026]</strong> Our survey paper, <a href="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main">Vision Mamba in Remote Sensing</a>, was accepted by <em>Remote Sensing</em>.</li>
+  <li><strong>[Aug. 2025]</strong> I joined Carnegie Mellon University as an M.S. student in Electrical and Computer Engineering.</li>
+  <li><strong>[Jul. 2025]</strong> Our paper, <a href="https://github.com/BaoBao0926/FTCFormer/tree/main">FTCFormer</a>, was accepted by ECAI 2025, the European Conference on Artificial Intelligence.</li>
+  <li><strong>[Jun. 2025]</strong> I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University.</li>
+  <li><strong>[Feb. 2025]</strong> My first paper, <a href="https://github.com/BaoBao0926/AlexCapsNet">AlexCapsNet</a>, was accepted by <em>IEEE Access</em>.</li>
+  <li><strong>[Dec. 2024]</strong> One paper on <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">Performance Analysis of Rendering optimization on Game Engine</a> was accepted by UIC 2024, IEEE International Conference on Ubiquitous Intelligence and Computing.</li>
+</ul>
