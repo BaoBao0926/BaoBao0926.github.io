@@ -1,5 +1,5 @@
 ---
-permalink: 
+permalink: /
 author_profile: true
 title: "Hi there, I'am Muyi Bao(包沐亦)"
 redirect_from: 
