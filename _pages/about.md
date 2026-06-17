@@ -31,11 +31,390 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
   <li><strong>[Dec. 2024]</strong> One paper on <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">Performance Analysis of Rendering optimization on Game Engine</a> was accepted by UIC 2024, IEEE International Conference on Ubiquitous Intelligence and Computing.</li>
 </ul>
 
-|**Research Projects:**  |  | 
-| :--------  | :----  |
-|<img src="https://github.com/BaoBao0926/Goal2Pixel/raw/website/resources/images/pipeline.jpg" style="max-width:400px;" />|**Goal2Pixel: Grounding Goals to Pixels for Vision-Language Navigation**<br><br>**Authors**: **Muyi Bao**, Yuxin Cai, Hang Xu, Zongtai Li, Jinxi He, Jingfan Tang, Chen Lv, Ji Zhang, Yaqi Xie, Wenshan Wang<br><br>**Brief Description**: The first pure pixel-based paradigm for Vision-Language Navigation<br><br>**Venue**: Arxiv, Jun 2026<br><br>[Repository](https://github.com/BaoBao0926/Goal2Pixel) \| [Paper](https://arxiv.org/pdf/2606.01621)|
-|<img src="https://raw.githubusercontent.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/main/Assets/outline.png" style="max-width:400px;" />|**Vision Mamba in Remote Sensing: A Comprehensive Survey of Techniques, Applications and Outlook**<br><br>**Authors**: **Muyi Bao**, Shuchang Lyu, Zhaoyang Xu, Huiyu Zhou, Jinchang Ren, Shiming Xiang, Xiangtai Li, Guangliang Cheng<br><br>**Brief Description**: The first survey of Vision Mamba in Remote Sensing<br><br>**Venue**: Remote Sensing, Feb 2026<br><br>[Repository](https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main) \| [Paper](https://arxiv.org/abs/2505.00630)|
-|<img src="https://raw.githubusercontent.com/BaoBao0926/FTCFormer/main/Assets/architecture.png" style="max-width:400px;" />|**FTCFormer: Fuzzy Token Clustering Transformer for Image Classification**<br><br>**Authors**: **Muyi Bao**, Changyu Zeng, Yifan Wang, Zhengni Yang, Zimu Wang, Guangliang Cheng, Jun Qi and Wei Wang<br><br>**Brief Description**: A clustering-based downsampling method (to replace grid-based methods, such as maxpooling.)<br><br>**Venue**: ECAI2025, July 2025<br><br>[Repository](https://github.com/BaoBao0926/FTCFormer/tree/main) \| [Paper](https://arxiv.org/abs/2507.10283)|
-|<img src="https://raw.githubusercontent.com/BaoBao0926/ASP-VMUNet/main/figure/ASPVMUnet.png" style="max-width:400px;" />|**ASP-VMUNet: Atrous Shifted Parallel Vision Mamba U-Net for Skin Lesion Segmentation**<br><br>**Authors**: **Muyi Bao**, Shuchang Lyu, Zhaoyang Xu, Qi Zhao, Changyu Zeng, Wenpei Bai, Guangliang Cheng<br><br>**Brief Description**: A Mamba/CNN hybrid model on skin lesion segmentation task.<br><br>**Venue**: arXiv, Mar 2025<br><br>[Repository](https://github.com/BaoBao0926/ASP-VMUNet) \| [Paper](https://arxiv.org/abs/2503.19427)|
-|<img src="https://raw.githubusercontent.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method/main/figure/show.png" style="max-width:400px;" />|**Comparative Performance Analysis of Rendering Optimization Methods in Unity Tuanjie Engine, Unity Global and Unreal Engine**<br><br>**Authors**: **Muyi Bao**, Zeren Tao, Xiaohan Wang, Jiashuo Liu, Qilei Sun<br><br>**Brief Description**: A comparative performance study of Level of Detail (Unity Global), Virtual Geometry (Tuanjie Engine) and Nanite (Unreal Engine)<br><br>**Venue**: UIC 2024, Dec 2024<br><br>[Repository](https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method) \| [Paper](https://ieeexplore.ieee.org/abstract/document/10925167)|
-|<img src="https://raw.githubusercontent.com/BaoBao0926/AlexCapsNet/main/figure/show1.png" style="max-width:400px;" />|**AlexCapsNet: An Integrated Architecture for Image Classification with Background Noise**<br><br>**Authors**: **Muyi Bao**, Ming Xu, Nanlin Jin<br><br>**Brief Description**: A CapsNet-based model for image classification task.<br><br>**Venue**: IEEE Access, Feb 2025<br><br>[Repository](https://github.com/BaoBao0926/AlexCapsNet) \| [Paper](https://ieeexplore.ieee.org/abstract/document/10900363)|
+<style>
+  .research-table {
+    width: 100%;
+    border: 0 !important;
+    border-spacing: 0;
+    border-collapse: separate !important;
+    margin: 0 auto 1em;
+    font-size: 0.95em;
+  }
+
+  .research-table tr,
+  .research-table td {
+    border: 0 !important;
+    background: transparent !important;
+  }
+
+  .research-image-cell {
+    width: 44%;
+    padding: 16px 20px 24px 0;
+    vertical-align: middle;
+  }
+
+  .research-text-cell {
+    width: 56%;
+    padding: 16px 0 24px 8px;
+    vertical-align: middle;
+  }
+
+  .research-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 260px;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+
+  .research-title {
+    font-size: 1.05em;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+
+  .research-authors {
+    margin-top: 5px;
+    line-height: 1.4;
+  }
+
+  .research-venue {
+    margin-top: 5px;
+    line-height: 1.4;
+  }
+
+  .research-description {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    line-height: 1.45;
+  }
+
+  .research-links {
+    margin-top: 6px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .research-table,
+    .research-table tbody,
+    .research-table tr,
+    .research-table td {
+      display: block;
+      width: 100%;
+    }
+
+    .research-image-cell {
+      padding: 18px 0 8px 0;
+    }
+
+    .research-text-cell {
+      padding: 6px 0 24px 0;
+    }
+
+    .research-image {
+      max-height: none;
+    }
+  }
+</style>
+
+<h2>Research Projects</h2>
+
+<table class="research-table">
+  <tbody>
+
+    <!-- Goal2Pixel -->
+    <tr>
+      <td class="research-image-cell">
+        <img
+          class="research-image"
+          src="https://github.com/BaoBao0926/Goal2Pixel/raw/website/resources/images/pipeline.jpg"
+          alt="Goal2Pixel framework"
+        />
+      </td>
+
+      <td class="research-text-cell">
+        <a href="https://baobao0926.github.io/Goal2Pixel/">
+          <span class="research-title">
+            Goal2Pixel: Grounding Goals to Pixels for Vision-Language Navigation
+          </span>
+        </a>
+
+        <div class="research-authors">
+          <strong>Muyi Bao</strong><sup>*</sup>,
+          Yuxin Cai<sup>*</sup>,
+          Hang Xu,
+          Zongtai Li,
+          Jinxi He,
+          Jingfan Tang,
+          Chen Lv,
+          Ji Zhang,
+          Yaqi Xie,
+          Wenshan Wang
+        </div>
+
+        <div>
+          <small><sup>*</sup> Equal contribution</small>
+        </div>
+
+        <div class="research-venue">
+          <em>arXiv, 2026</em>
+        </div>
+
+        <p class="research-description">
+          Goal2Pixel first reformulates Vision-and-Language Navigation in Continuous Environments (VLN-CE) as pure navigable pixel grounding. The model predicts a visible pixel in the current observation and back-projects it into a 3D waypoint for low-level navigation, providing a unified spatial interface between
+          vision-language reasoning and robot motion.
+        </p>
+
+        <div class="research-links">
+          <a href="https://baobao0926.github.io/Goal2Pixel/">Project Page</a>
+          &nbsp;/&nbsp;
+          <a href="https://arxiv.org/abs/2606.01621">Paper</a>
+          &nbsp;/&nbsp;
+          <a href="https://github.com/BaoBao0926/Goal2Pixel">Code</a>
+        </div>
+      </td>
+    </tr>
+
+    <!-- Vision Mamba Survey -->
+    <tr>
+      <td class="research-image-cell">
+        <img
+          class="research-image"
+          src="https://raw.githubusercontent.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/main/Assets/outline.png"
+          alt="Vision Mamba in Remote Sensing survey"
+        />
+      </td>
+
+      <td class="research-text-cell">
+        <a href="https://arxiv.org/abs/2505.00630">
+          <span class="research-title">
+            Vision Mamba in Remote Sensing: A Comprehensive Survey of Techniques,
+            Applications and Outlook
+          </span>
+        </a>
+
+        <div class="research-authors">
+          <strong>Muyi Bao</strong>,
+          Shuchang Lyu,
+          Zhaoyang Xu,
+          Huiyu Zhou,
+          Jinchang Ren,
+          Shiming Xiang,
+          Xiangtai Li,
+          Guangliang Cheng
+        </div>
+
+        <div class="research-venue">
+          <em>Remote Sensing, 2026</em>
+        </div>
+
+        <p class="research-description">
+          This work presents a comprehensive survey of Vision Mamba models for
+          remote sensing. It reviews their architectural foundations, application
+          areas, representative methods, current limitations, and future research
+          directions.
+        </p>
+
+        <div class="research-links">
+          <a href="https://arxiv.org/abs/2505.00630">Paper</a>
+          &nbsp;/&nbsp;
+          <a href="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing">
+            Repository
+          </a>
+        </div>
+      </td>
+    </tr>
+
+    <!-- FTCFormer -->
+    <tr>
+      <td class="research-image-cell">
+        <img
+          class="research-image"
+          src="https://raw.githubusercontent.com/BaoBao0926/FTCFormer/main/Assets/architecture.png"
+          alt="FTCFormer architecture"
+        />
+      </td>
+
+      <td class="research-text-cell">
+        <a href="https://arxiv.org/abs/2507.10283">
+          <span class="research-title">
+            FTCFormer: Fuzzy Token Clustering Transformer for Image Classification
+          </span>
+        </a>
+
+        <div class="research-authors">
+          <strong>Muyi Bao</strong>,
+          Changyu Zeng,
+          Yifan Wang,
+          Zhengni Yang,
+          Zimu Wang,
+          Guangliang Cheng,
+          Jun Qi,
+          Wei Wang
+        </div>
+
+        <div class="research-venue">
+          <em>European Conference on Artificial Intelligence (ECAI), 2025</em>
+        </div>
+
+        <p class="research-description">
+          FTCFormer introduces fuzzy token clustering as a content-adaptive
+          downsampling mechanism for vision transformers. Instead of relying on
+          fixed grid-based operations such as pooling, it groups visually related
+          tokens to preserve informative image structures during hierarchical
+          feature extraction.
+        </p>
+
+        <div class="research-links">
+          <a href="https://arxiv.org/abs/2507.10283">Paper</a>
+          &nbsp;/&nbsp;
+          <a href="https://github.com/BaoBao0926/FTCFormer">Code</a>
+        </div>
+      </td>
+    </tr>
+
+    <!-- ASP-VMUNet -->
+    <tr>
+      <td class="research-image-cell">
+        <img
+          class="research-image"
+          src="https://raw.githubusercontent.com/BaoBao0926/ASP-VMUNet/main/figure/ASPVMUnet.png"
+          alt="ASP-VMUNet architecture"
+        />
+      </td>
+
+      <td class="research-text-cell">
+        <a href="https://arxiv.org/abs/2503.19427">
+          <span class="research-title">
+            ASP-VMUNet: Atrous Shifted Parallel Vision Mamba U-Net for Skin Lesion
+            Segmentation
+          </span>
+        </a>
+
+        <div class="research-authors">
+          <strong>Muyi Bao</strong>,
+          Shuchang Lyu,
+          Zhaoyang Xu,
+          Qi Zhao,
+          Changyu Zeng,
+          Wenpei Bai,
+          Guangliang Cheng
+        </div>
+
+        <div class="research-venue">
+          <em>arXiv, 2025</em>
+        </div>
+
+        <p class="research-description">
+          ASP-VMUNet is a hybrid Mamba–CNN architecture for skin lesion
+          segmentation. It combines long-range visual modeling with local
+          convolutional features and multi-scale context aggregation for accurate
+          medical image segmentation.
+        </p>
+
+        <div class="research-links">
+          <a href="https://arxiv.org/abs/2503.19427">Paper</a>
+          &nbsp;/&nbsp;
+          <a href="https://github.com/BaoBao0926/ASP-VMUNet">Code</a>
+        </div>
+      </td>
+    </tr>
+
+    <!-- Rendering Optimization -->
+    <tr>
+      <td class="research-image-cell">
+        <img
+          class="research-image"
+          src="https://raw.githubusercontent.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method/main/figure/show.png"
+          alt="Rendering optimization comparison"
+        />
+      </td>
+
+      <td class="research-text-cell">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10925167">
+          <span class="research-title">
+            Comparative Performance Analysis of Rendering Optimization Methods in
+            Unity Tuanjie Engine, Unity Global and Unreal Engine
+          </span>
+        </a>
+
+        <div class="research-authors">
+          <strong>Muyi Bao</strong>,
+          Zeren Tao,
+          Xiaohan Wang,
+          Jiashuo Liu,
+          Qilei Sun
+        </div>
+
+        <div class="research-venue">
+          <em>
+            IEEE International Conference on Ubiquitous Intelligence and Computing
+            (UIC), 2024
+          </em>
+        </div>
+
+        <p class="research-description">
+          This work compares modern rendering optimization techniques across
+          multiple game engines, including Level of Detail in Unity, Virtual
+          Geometry in the Tuanjie Engine, and Nanite in Unreal Engine.
+        </p>
+
+        <div class="research-links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10925167">
+            Paper
+          </a>
+          &nbsp;/&nbsp;
+          <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">
+            Repository
+          </a>
+        </div>
+      </td>
+    </tr>
+
+    <!-- AlexCapsNet -->
+    <tr>
+      <td class="research-image-cell">
+        <img
+          class="research-image"
+          src="https://raw.githubusercontent.com/BaoBao0926/AlexCapsNet/main/figure/show1.png"
+          alt="AlexCapsNet architecture"
+        />
+      </td>
+
+      <td class="research-text-cell">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10900363">
+          <span class="research-title">
+            AlexCapsNet: An Integrated Architecture for Image Classification with
+            Background Noise
+          </span>
+        </a>
+
+        <div class="research-authors">
+          <strong>Muyi Bao</strong>,
+          Ming Xu,
+          Nanlin Jin
+        </div>
+
+        <div class="research-venue">
+          <em>IEEE Access, 2025</em>
+        </div>
+
+        <p class="research-description">
+          AlexCapsNet integrates convolutional feature extraction with capsule
+          networks for robust image classification. The model is designed to
+          improve recognition performance when images contain complex or noisy
+          backgrounds.
+        </p>
+
+        <div class="research-links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10900363">
+            Paper
+          </a>
+          &nbsp;/&nbsp;
+          <a href="https://github.com/BaoBao0926/AlexCapsNet">Code</a>
+        </div>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
