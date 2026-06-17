@@ -12,7 +12,7 @@ I am currently an M.S. student in Electrical and Computer Engineering at Carnegi
 
 At CMU, I am working with Dr. [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and Dr. [Wenshan Wang](http://www.wangwenshan.com/) on Embodied AI, with a focus on Vision-and-Language Navigation. Before joining CMU, I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University in 2025. During my undergraduate studies, I focused on computer vision and was fortunate to work with Prof. [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage), Prof. [Wei Wang](https://scholar.xjtlu.edu.cn/en/persons/WeiWang03), and Prof. [Ming Xu](https://scholar.xjtlu.edu.cn/en/persons/MingXu).
 
-My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/Muyi%20Bao%20CV.pdf) (updated in 2025.08.10) and My email is [muyib@andrew.cmu.edu](mailto:muyib@andrew.cmu.edu).
+My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/Muyi%20Bao%20CV.pdf) (updated in 2025.08.10) and my email is [muyib@andrew.cmu.edu](mailto:muyib@andrew.cmu.edu).
 
 
 <p style="color:red;">
@@ -24,15 +24,14 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 ## News
 
 <ul style="font-size: 0.9em; line-height: 1.45; margin-top: 0;">
-  <li><strong>[Jun. 2026]</strong> 📄Two paper, <a href="https://baobao0926.github.io/Goal2Pixel/">Goal2Pixel</a> and <a href="https://anonymous.4open.science/w/IntentNav/">IntentNav</a>, was submitted into CoRL2026.</li>
-  <li><strong>[Feb. 2026]</strong> 📄Our survey paper, <a href="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main">Vision Mamba in Remote Sensing</a>, was accepted by <em>Remote Sensing</em>.</li>
-  <li><strong>[Nov. 2025]</strong> 📄<a href="https://aclanthology.org/2025.findings-emnlp.1229/">NUMINA</a> was accepted to <em>Findings of EMNLP 2025</em>.
-</li>
+  <li><strong>[Jun. 2026]</strong> 📄 Two papers, <a href="https://baobao0926.github.io/Goal2Pixel/">Goal2Pixel</a> and <a href="https://anonymous.4open.science/w/IntentNav/">IntentNav</a>, were submitted to <em>CoRL 2026</em>.</li>
+  <li><strong>[Feb. 2026]</strong> 📄 Our survey paper, <a href="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main">Vision Mamba in Remote Sensing</a>, was accepted by <em>Remote Sensing</em>.</li>
+  <li><strong>[Nov. 2025]</strong> 📄 <a href="https://aclanthology.org/2025.findings-emnlp.1229/">NUMINA</a> was accepted to <em>Findings of EMNLP 2025</em>.</li>
   <li><strong>[Aug. 2025]</strong> 🎓 I joined Carnegie Mellon University as an M.S. student in Electrical and Computer Engineering.</li>
-  <li><strong>[Jul. 2025]</strong> <a href="https://github.com/BaoBao0926/FTCFormer/tree/main">  📄 FTCFormer</a> was accepted by ECAI 2025, the European Conference on Artificial Intelligence.</li> 
+  <li><strong>[Jul. 2025]</strong> 📄 <a href="https://github.com/BaoBao0926/FTCFormer/tree/main">FTCFormer</a> was accepted by <em>ECAI 2025</em>.</li>
   <li><strong>[Jun. 2025]</strong> 🎓 I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University.</li>
-  <li><strong>[Feb. 2025]</strong> 📄My first paper, <a href="https://github.com/BaoBao0926/AlexCapsNet">AlexCapsNet</a>, was accepted by <em>IEEE Access</em>.</li>
-  <li><strong>[Dec. 2024]</strong> 📄One paper on <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">Performance Analysis of Rendering optimization on Game Engine</a> was accepted by UIC 2024, IEEE International Conference on Ubiquitous Intelligence and Computing.</li>
+  <li><strong>[Feb. 2025]</strong> 📄 My first paper, <a href="https://github.com/BaoBao0926/AlexCapsNet">AlexCapsNet</a>, was accepted by <em>IEEE Access</em>.</li>
+  <li><strong>[Dec. 2024]</strong> 📄 One paper on <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">Performance Analysis of Rendering Optimization on Game Engine</a> was accepted by <em>UIC 2024</em>.</li>
 </ul>
 
 <style>
