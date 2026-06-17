@@ -32,6 +32,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 </ul>
 
 <style>
+  @media screen and (min-width: 1280px) {
+    #main {
+      max-width: 1536px;
+    }
+  }
+
   .research-table {
     width: 100%;
     border: 0 !important;
@@ -45,6 +51,10 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
   .research-table td {
     border: 0 !important;
     background: transparent !important;
+  }
+
+  .research-table tr + tr td {
+    border-top: 1px solid #eeeeee !important;
   }
 
   .research-image-cell {
@@ -161,8 +171,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          Goal2Pixel first reformulates Vision-and-Language Navigation in Continuous Environments (VLN-CE) as pure navigable pixel grounding. The model predicts a visible pixel in the current observation and back-projects it into a 3D waypoint for low-level navigation, providing a unified spatial interface between
-          vision-language reasoning and robot motion.
+          Goal2Pixel reformulates Vision-and-Language Navigation in Continuous Environments (VLN-CE) as a pure navigable-pixel grounding problem, using the image plane as a unified spatial interface between VLM reasoning and robot motion. Given the current observation and navigation instruction, the model predicts a visible, navigable 2D pixel, which is then back-projected into a 3D waypoint for execution. For history representation, Goal2Pixel introduces Visibility-Aware Keyframe Memory (ViKeyMem), cutting training/inference time by around 50%. It further incorporates semantic directive embeddings and coordinate-aware auxiliary losses to better adapt the VLM to navigation-specific spatial reasoning and pixel prediction. Goal2Pixel achieves 54.1% SR and 52.5% SPL on R2R-CE Val-Unseen with only 7.75 VLM calls per episode — 6× fewer than action prediction baselines.
         </p>
 
         <div class="research-links">
