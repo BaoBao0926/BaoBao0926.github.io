@@ -184,6 +184,44 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
     </tr>
 
+    <!-- IntentNav -->
+    <tr>
+      <td class="research-image-cell">
+        <img
+          class="research-image"
+          src="/assets/paper_images/intentnav.png"
+          alt="IntentNav framework"
+        />
+      </td>
+
+      <td class="research-text-cell">
+        <a href="https://anonymous.4open.science/w/IntentNav/">
+          <span class="research-title">
+            IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations
+          </span>
+        </a>
+
+        <div class="research-authors">
+          Anonymous Authors
+        </div>
+
+        <div class="research-venue">
+          <em>Under Review, 2026</em>
+        </div>
+
+        <p class="research-description">
+          IntentNav learns human-like ObjectNav policies from 23,767 human demonstrations by converting low-level trajectories into 2.36 million candidate-level waypoint supervision samples, without relying on oracle shortest paths. The model unifies frontier exploration and target commitment in a BEV-grounded patial-visual decision space and achieves 53.8% SR on MP3D, 70.5% SR on HM3D-v1, and 82.2% SR on HM3D-v2. The same 2B VLM checkpoint further transfers zero-shot to wheeled, quadruped, and humanoid robots without additional VLM fine-tuning.
+        </p>
+
+        <div class="research-links">
+          <a href="https://anonymous.4open.science/w/IntentNav/">
+            Project Page
+          </a>
+        </div>
+      </td>
+    </tr>
+
+
     <!-- Vision Mamba Survey -->
     <tr>
       <td class="research-image-cell">
@@ -218,10 +256,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          This work presents a comprehensive survey of Vision Mamba models for
-          remote sensing. It reviews their architectural foundations, application
-          areas, representative methods, current limitations, and future research
-          directions.
+          This is the first survey to systematically review approximately 120+ Mamba-based studies in remote sensing. It provides a structured overview of the field, covering preliminary knowledge, Vision Mamba backbones, micro- and macro-level architectural advancements, downstream applications, and key challenges and future research directions.
         </p>
 
         <div class="research-links">
@@ -267,17 +302,65 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          FTCFormer introduces fuzzy token clustering as a content-adaptive
-          downsampling mechanism for vision transformers. Instead of relying on
-          fixed grid-based operations such as pooling, it groups visually related
-          tokens to preserve informative image structures during hierarchical
-          feature extraction.
+          FTCFormer introduces a semantic-aware, clustering-based token downsampling mechanism that dynamically allocates more tokens to informative image regions and fewer tokens to less important areas. Evaluated on 32 image classification datasets across diverse domains, FTCFormer consistently outperforms the TCFormer baseline, achieving average accuracy improvements of 1.43% on fine-grained datasets, 1.09% on natural image datasets, 0.97% on medical  datasets, and 0.55% on remote sensing datasets.
         </p>
 
         <div class="research-links">
           <a href="https://arxiv.org/abs/2507.10283">Paper</a>
           &nbsp;/&nbsp;
           <a href="https://github.com/BaoBao0926/FTCFormer">Code</a>
+        </div>
+      </td>
+    </tr>
+
+    <!-- NUMINA -->
+    <tr>
+      <td class="research-image-cell">
+        <img
+          class="research-image"
+          src="/assets/paper_images/NUMINA.png"
+          alt="NUMINA benchmark overview"
+        />
+      </td>
+
+      <td class="research-text-cell">
+        <a href="https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1229.pdf">
+          <span class="research-title">
+            NUMINA: A Natural Understanding Benchmark for Multi-dimensional
+            Intelligence and Numerical Reasoning Abilities
+          </span>
+        </a>
+
+        <div class="research-authors">
+          Changyu Zeng<sup>*</sup>,
+          Yifan Wang<sup>*</sup>,
+          Zimu Wang<sup>*</sup>,
+          Wei Wang,
+          Zhengni Yang,
+          <strong>Muyi Bao</strong>,
+          Jiming Xiao,
+          Anh Nguyen,
+          Yutao Yue
+        </div>
+
+        <div>
+          <small><sup>*</sup> Equal contribution</small>
+        </div>
+
+        <div class="research-venue">
+          <em>Findings of EMNLP, 2025</em>
+        </div>
+
+        <p class="research-description">
+          NUMINA is a large-scale benchmark for evaluating fine-grained spatial understanding and numerical reasoning in 3D indoor environments. It contains 74,526 question-answer pairs across fact validation, prompt matching, and numerical inference tasks, with 62.0% of the questions
+          involving quantity, distance, or volume reasoning. Human inspection of 20,000 samples achieves a 99.5% correctness rate, while evaluated models obtain below 3% TA@5 on precise distance and volume estimation, demonstrating the substantial limitations of current models in 3D
+          numerical reasoning.
+        </p>
+
+        <div class="research-links">
+          <a href="https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1229.pdf">
+            Paper
+          </a>
         </div>
       </td>
     </tr>
@@ -315,10 +398,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          ASP-VMUNet is a hybrid Mamba–CNN architecture for skin lesion
-          segmentation. It combines long-range visual modeling with local
-          convolutional features and multi-scale context aggregation for accurate
-          medical image segmentation.
+          ASP-VMUNet introduces a hybrid CNN-Mamba architecture for skin lesion segmentation, featuring: 1) an atrous scan strategy to suppress background interference and enlarge the receptive field; 2) a shift-round operation for cross-segment feature interaction; and 3) attention-based fusion of local and global features. Evaluated on PH2 and ISIC 2016-2018, ASP-VMUNet achieves state-of-the-art performance, outperforming the second-best method by 1.08%, 1.02%, 1.36%, and 0.21% in mIoU across the four datasets, respectively.
         </p>
 
         <div class="research-links">
@@ -363,9 +443,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          This work compares modern rendering optimization techniques across
-          multiple game engines, including Level of Detail in Unity, Virtual
-          Geometry in the Tuanjie Engine, and Nanite in Unreal Engine.
+          This work presents a systematic comparison of three geometry rendering optimization systems: Unity Global's Level of Detail, Tuanjie Engine's  Virtual Geometry, and Unreal Engine 5's Nanite. Using benchmark scenes with ten 3D models containing three million polygons each, the study evaluates FPS, GPU, CPU, and memory usage across multiple viewing distances. The results show that Nanite achieves the best overall performance, while Tuanjie's Virtual Geometry outperforms Unity's LOD for distant objects but performs worse at close viewing distances.
         </p>
 
         <div class="research-links">
@@ -409,10 +487,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          AlexCapsNet integrates convolutional feature extraction with capsule
-          networks for robust image classification. The model is designed to
-          improve recognition performance when images contain complex or noisy
-          backgrounds.
+          AlexCapsNet integrates AlexNet-based deep feature extraction with CapsNet to improve classification on complex images with background noise. Across MNIST, Fashion-MNIST, SVHN, and CIFAR-10, it achieves accuracies of 99.66%, 93.27%, 95.33%, and 83.67%, outperforming the original CapsNet by an average of 5.16% accuracy. Experiments on seven datasets further show that removing  CapsNet's reconstruction module improves robustness on datasets containing complex backgrounds.
         </p>
 
         <div class="research-links">
