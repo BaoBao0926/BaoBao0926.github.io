@@ -31,7 +31,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
   <li><strong>[Jul. 2025]</strong> 📄 <a href="https://github.com/BaoBao0926/FTCFormer/tree/main">FTCFormer</a> was accepted by <em>ECAI 2025</em>.</li>
   <li><strong>[Jun. 2025]</strong> 🎓 I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University.</li>
   <li><strong>[Feb. 2025]</strong> 📄 My first paper, <a href="https://github.com/BaoBao0926/AlexCapsNet">AlexCapsNet</a>, was accepted by <em>IEEE Access</em>.</li>
-  <li><strong>[Dec. 2024]</strong> 📄 One paper on <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">Performance Analysis of Rendering Optimization on Game Engine</a> was accepted by <em>UIC 2024</em>.</li>
+  <li><strong>[Dec. 2024]</strong> 📄 One paper on <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">Performance Analysis of Rendering Optimization</a> was accepted by <em>UIC 2024</em>.</li>
 </ul>
 
 <style>
@@ -101,7 +101,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     margin-top: 12px;
     margin-bottom: 8px;
     line-height: 1.35;
-    font-size: 0.90em;
+    font-size: 0.50em;
   }
 
   .research-links {
