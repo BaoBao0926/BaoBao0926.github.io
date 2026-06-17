@@ -171,7 +171,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          Goal2Pixel reformulates Vision-and-Language Navigation in Continuous Environments (VLN-CE) as a pure navigable-pixel grounding problem, using the image plane as a unified spatial interface between VLM reasoning and robot motion. Given the current observation and navigation instruction, the model predicts a visible, navigable 2D pixel, which is then back-projected into a 3D waypoint for execution. For history representation, Goal2Pixel introduces Visibility-Aware Keyframe Memory (ViKeyMem), cutting training/inference time by around 50%. It further incorporates semantic directive embeddings and coordinate-aware auxiliary losses to better adapt the VLM to navigation-specific spatial reasoning and pixel prediction. Goal2Pixel achieves 54.1% SR and 52.5% SPL on R2R-CE Val-Unseen with only 7.75 VLM calls per episode — 6× fewer than action prediction baselines.
+          Goal2Pixel reformulates Vision-and-Language Navigation in Continuous Environments (VLN-CE) as a pure navigable-pixel grounding problem, using the image plane as a unified spatial interface between VLM reasoning and robot motion. For history representation, Goal2Pixel introduces Visibility-Aware Keyframe Memory (ViKeyMem), cutting training/inference time by around 50%. Goal2Pixel further incorporates semantic directive embeddings and coordinate-aware auxiliary losses to better adapt the VLM to VLN-CE. Goal2Pixel achieves 54.1% SR and 52.5% SPL on R2R-CE Val-Unseen with only 7.75 VLM calls per episode — 6× fewer than action prediction baselines.
         </p>
 
         <div class="research-links">
@@ -202,7 +202,22 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </a>
 
         <div class="research-authors">
-          Anonymous Authors
+          Yuxin Cai<sup>*</sup>,
+          Zongtai Li<sup>*</sup>,
+          Maonan Wang,
+          <strong>Muyi Bao</strong>,
+          Haokun Zhu,
+          Ruofei Bai,
+          Ding Zhao,
+          Zirui Li,
+          Wenshan Wang,
+          Wei-Yun Yau,
+          Ji Zhang,
+          Chen Lv
+        </div>
+
+        <div>
+          <small><sup>*</sup> Equal contribution</small>
         </div>
 
         <div class="research-venue">
@@ -287,14 +302,18 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </a>
 
         <div class="research-authors">
-          <strong>Muyi Bao</strong>,
-          Changyu Zeng,
+          <strong>Muyi Bao</strong><sup>*</sup>,
+          Changyu Zeng<sup>*</sup>,
           Yifan Wang,
           Zhengni Yang,
           Zimu Wang,
           Guangliang Cheng,
           Jun Qi,
           Wei Wang
+        </div>
+
+        <div>
+          <small><sup>*</sup> Equal contribution</small>
         </div>
 
         <div class="research-venue">
@@ -420,7 +439,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://ieeexplore.ieee.org/abstract/document/10925167">
+        <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">
           <span class="research-title">
             Comparative Performance Analysis of Rendering Optimization Methods in
             Unity Tuanjie Engine, Unity Global and Unreal Engine
@@ -447,9 +466,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </p>
 
         <div class="research-links">
-          <a href="https://ieeexplore.ieee.org/abstract/document/10925167">
-            Paper
-          </a>
+          <a href="https://ieeexplore.ieee.org/abstract/document/10925167">Paper</a>
           &nbsp;/&nbsp;
           <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">
             Repository
@@ -469,7 +486,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://ieeexplore.ieee.org/abstract/document/10900363">
+        <a href="https://github.com/BaoBao0926/AlexCapsNet">
           <span class="research-title">
             AlexCapsNet: An Integrated Architecture for Image Classification with
             Background Noise
@@ -491,9 +508,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </p>
 
         <div class="research-links">
-          <a href="https://ieeexplore.ieee.org/abstract/document/10900363">
-            Paper
-          </a>
+          <a href="https://ieeexplore.ieee.org/abstract/document/10900363">Paper</a>
           &nbsp;/&nbsp;
           <a href="https://github.com/BaoBao0926/AlexCapsNet">Code</a>
         </div>
