@@ -37,7 +37,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 <style>
   @media screen and (min-width: 1280px) {
     #main {
-      max-width: 1600px;
+      max-width: 1200px;
     }
   }
 
