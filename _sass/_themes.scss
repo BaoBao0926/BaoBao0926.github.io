@@ -7,8 +7,8 @@
    ========================================================================== */
 
 /* Used to set the size for <em> */
-$doc-font-size              : 14;
-$doc-font-size-large        : 15;
+$doc-font-size              : 12;
+$doc-font-size-large        : 13;
 
 /* Paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -55,8 +55,8 @@ $medium                     : 768px !default;
 $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
-$site-container             : 860px !default;
-$site-container-wide        : 1100px !default;
+$site-container             : 780px !default;
+$site-container-wide        : 1000px !default;
 
 /* ==========================================================================
    Grid
