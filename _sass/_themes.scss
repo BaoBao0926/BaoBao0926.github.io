@@ -7,7 +7,8 @@
    ========================================================================== */
 
 /* Used to set the size for <em> */
-$doc-font-size              : 16;
+$doc-font-size              : 15;
+$doc-font-size-large        : 16;
 
 /* Paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -54,6 +55,8 @@ $medium                     : 768px !default;
 $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
+$site-container             : 860px !default;
+$site-container-wide        : 1100px !default;
 
 /* ==========================================================================
    Grid
@@ -70,7 +73,7 @@ $susy: (
     math: fluid,
     output: float,
     gutter-position: after,
-    container: $large,
+    container: $site-container,
     global-box-sizing: border-box,
 );
 
@@ -102,4 +105,3 @@ $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
-   

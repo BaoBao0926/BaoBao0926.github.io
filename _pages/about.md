@@ -12,7 +12,7 @@ I am currently an M.S. student in Electrical and Computer Engineering at Carnegi
 
 At CMU, I am working with Dr. [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and Dr. [Wenshan Wang](http://www.wangwenshan.com/) on Embodied AI, with a focus on Vision-and-Language Navigation. Before joining CMU, I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University in 2025. During my undergraduate studies, I focused on computer vision and was fortunate to work with Prof. [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage), Prof. [Wei Wang](https://scholar.xjtlu.edu.cn/en/persons/WeiWang03), and Prof. [Ming Xu](https://scholar.xjtlu.edu.cn/en/persons/MingXu).
 
-My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/Muyi%20Bao%20CV.pdf) (updated in 2025.08.10) and my email is [muyib@andrew.cmu.edu](mailto:muyib@andrew.cmu.edu).
+My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/Muyi%20Bao%20CV.pdf) (updated in 2026.07.20) and my email is [muyib@andrew.cmu.edu](mailto:muyib@andrew.cmu.edu).
 
 
 <p style="color:red;">
@@ -24,14 +24,13 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 ## News
 
 <ul style="font-size: 0.9em; line-height: 1.45; margin-top: 0;">
-  <li><strong>[2026/06]</strong> 📄 Two papers, <a href="https://baobao0926.github.io/Goal2Pixel/">Goal2Pixel</a> and <a href="https://anonymous.4open.science/w/IntentNav/">IntentNav</a>, were submitted to <em>CoRL 2026</em>.</li>
   <li><strong>[2026/02]</strong> 📄 Our survey paper, <a href="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main">Vision Mamba in Remote Sensing</a>, was accepted by <em>Remote Sensing</em>.</li>
   <li><strong>[2025/11]</strong> 📄 <a href="https://aclanthology.org/2025.findings-emnlp.1229/">NUMINA</a> was accepted to <em>Findings of EMNLP 2025</em>.</li>
   <li><strong>[2025/08]</strong> 🎓 I joined Carnegie Mellon University as an M.S. student in Electrical and Computer Engineering.</li>
   <li><strong>[2025/07]</strong> 📄 <a href="https://github.com/BaoBao0926/FTCFormer/tree/main">FTCFormer</a> was accepted by <em>ECAI 2025</em>.</li>
   <li><strong>[2025/06]</strong> 🎓 I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University.</li>
-  <li><strong>[2025/02]</strong> 📄 My first paper, <a href="https://github.com/BaoBao0926/AlexCapsNet">AlexCapsNet</a>, was accepted by <em>IEEE Access</em>.</li>
-  <li><strong>[2024/12]</strong> 📄 One paper on <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">Performance Analysis of Rendering Optimization</a> was accepted by <em>UIC 2024</em>.</li>
+  <li><strong>[2025/02]</strong> 📄 <a href="https://github.com/BaoBao0926/AlexCapsNet">AlexCapsNet</a> was accepted by <em>IEEE Access</em>.</li>
+  <li><strong>[2024/12]</strong> 📄 <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">Performance Analysis of Rendering Optimization</a> was accepted by <em>UIC 2024</em>.</li>
   <li><strong>[2021/06]</strong> 🎓 I joined Xi'an Jiaotong Liverpool Unverisity as a Bachelor of Engineering in Computer Science and Technology .</li>
 </ul>
 

@@ -31,7 +31,7 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: $site-container-wide;
     }
 
     nav {
