@@ -8,11 +8,15 @@ redirect_from:
 ---
 
 
+<div class="about-intro" markdown="1">
+
 I am currently an M.S. student in Electrical and Computer Engineering at Carnegie Mellon University. My research interests lie in Embodied AI and multimodal foundation models for robotics, focusing on building vision-language agents that can understand human instructions, interpret visual observations, and produce semantically aligned and physically executable behavior in embodied environments. In particular, I am interested in developing model designs and learning algorithms that improve the performance, efficiency, reliability, and safety of embodied agents. 
 
 At CMU, I am working with Dr. [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and Dr. [Wenshan Wang](http://www.wangwenshan.com/) on Embodied AI, with a focus on Vision-and-Language Navigation. Before joining CMU, I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University in 2025. During my undergraduate studies, I focused on computer vision and was fortunate to work with Prof. [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage), Prof. [Wei Wang](https://scholar.xjtlu.edu.cn/en/persons/WeiWang03), and Prof. [Ming Xu](https://scholar.xjtlu.edu.cn/en/persons/MingXu).
 
 My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/Muyi%20Bao%20CV.pdf) (updated in 2026.07.20) and my email is [muyib@andrew.cmu.edu](mailto:muyib@andrew.cmu.edu).
+
+</div>
 
 
 <p style="color:red;">
@@ -21,9 +25,9 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
 
 
-## News
+<h2 class="about-wide-item">News</h2>
 
-<ul style="font-size: 0.8em; line-height: 1.45; margin-top: 0;">
+<ul class="news-list about-wide-item">
   <li><strong>[2026/02]</strong> 📄 Our survey paper, <a href="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main">Vision Mamba in Remote Sensing</a>, was accepted by <em>Remote Sensing</em>.</li>
   <li><strong>[2025/11]</strong> 📄 <a href="https://aclanthology.org/2025.findings-emnlp.1229/">NUMINA</a> was accepted to <em>Findings of EMNLP 2025</em>.</li>
   <li><strong>[2025/08]</strong> 🎓 I joined Carnegie Mellon University as an M.S. student in Electrical and Computer Engineering.</li>
@@ -41,13 +45,39 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     }
   }
 
+  .about-intro {
+    max-width: 760px; /* 控制开头三段正文的最大宽度：数字越小，文字行越短 */
+    font-size: 0.9em; /* 控制开头三段正文的字号：0.9em = 比普通正文小一点 */
+    line-height: 1.5; /* 控制开头三段正文的行距：数字越大，行间距越松 */
+    margin: 0 auto 1.5em; /* 控制位置和下方间距：左右 auto 表示居中 */
+  }
+
+  .about-wide-item {
+    --about-wide-extra: 140px; /* 控制 News 和 Research 向右额外扩展多少空间 */
+    --about-wide-max: 1040px; /* 控制 News 和 Research 扩展后的最大宽度 */
+    max-width: var(--about-wide-max); /* 限制最大宽度，防止在超宽屏上拉得太长 */
+  }
+
+  @media screen and (min-width: 1024px) {
+    .about-wide-item,
+    .research-table.about-wide-item {
+      width: calc(100% + var(--about-wide-extra)); /* 保持左边位置不动，主要向右扩展 */
+    }
+  }
+
+  .news-list {
+    font-size: 0.8em; /* 控制 News 列表字号 */
+    line-height: 1.45; /* 控制 News 列表行距 */
+    margin-top: 0; /* 控制 News 标题和列表之间的距离 */
+  }
+
   .research-table {
-    width: 100%;
-    border: 0 !important;
-    border-spacing: 0;
-    border-collapse: separate !important;
-    margin: 0 auto 1em;
-    font-size: 0.95em;
+    width: 100%; /* 控制 Research Projects 表格占满它所在内容区的宽度 */
+    border: 0 !important; /* 去掉整个表格外框线 */
+    border-spacing: 0; /* 去掉单元格之间的空隙 */
+    border-collapse: separate !important; /* 保持单元格独立，方便只显示项目之间的分隔线 */
+    margin: 0 auto 1em; /* 控制表格位置和下方间距：左右 auto 表示居中 */
+    font-size: 0.95em; /* 控制 Research Projects 区域整体字号 */
   }
 
   .research-table tr,
@@ -131,9 +161,9 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
   }
 </style>
 
-<h2>Research Projects</h2>
+<h2 class="about-wide-item">Research Projects</h2>
 
-<table class="research-table">
+<table class="research-table about-wide-item">
   <tbody>
 
     <!-- Goal2Pixel -->
