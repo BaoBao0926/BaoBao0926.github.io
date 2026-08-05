@@ -23,7 +23,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
 ## News
 
-<ul style="font-size: 0.9em; line-height: 1.45; margin-top: 0;">
+<ul style="font-size: 0.8em; line-height: 1.45; margin-top: 0;">
   <li><strong>[2026/02]</strong> 📄 Our survey paper, <a href="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main">Vision Mamba in Remote Sensing</a>, was accepted by <em>Remote Sensing</em>.</li>
   <li><strong>[2025/11]</strong> 📄 <a href="https://aclanthology.org/2025.findings-emnlp.1229/">NUMINA</a> was accepted to <em>Findings of EMNLP 2025</em>.</li>
   <li><strong>[2025/08]</strong> 🎓 I joined Carnegie Mellon University as an M.S. student in Electrical and Computer Engineering.</li>
@@ -37,7 +37,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 <style>
   @media screen and (min-width: 1280px) {
     #main {
-      max-width: 1200px;
+      max-width: 1300px;
     }
   }
 
