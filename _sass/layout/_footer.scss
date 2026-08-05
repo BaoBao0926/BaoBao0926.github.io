@@ -36,7 +36,7 @@
     padding: 0 1em 1em;
 
     @include breakpoint($x-large) {
-      max-width: $site-container-wide;
+      max-width: $x-large;
     }
   }
 
