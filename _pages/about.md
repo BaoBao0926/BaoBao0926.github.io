@@ -47,6 +47,8 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
   .page__title {
     max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.25em;
   }
 
@@ -54,7 +56,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     max-width: 720px;
     font-size: 0.88em;
     line-height: 1.5;
-    margin-bottom: 2em;
+    margin: 0 auto 2em;
   }
 
   .about-phd-note {
