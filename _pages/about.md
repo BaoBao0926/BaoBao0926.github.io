@@ -10,9 +10,10 @@ redirect_from:
 
 <div class="about-intro" markdown="1">
 
-I am currently an M.S. student in Electrical and Computer Engineering at Carnegie Mellon University. My research interests lie in Embodied AI and multimodal foundation models for robotics, focusing on building vision-language agents that can understand human instructions, interpret visual observations, and produce semantically aligned and physically executable behavior in embodied environments. In particular, I am interested in developing model designs and learning algorithms that improve the performance, efficiency, reliability, and safety of embodied agents. 
+I am currently an M.S. student in Electrical and Computer Engineering at Carnegie Mellon University. My research interests lie in Embodied AI, focusing on building vision-language agents that can understand natural language instructions, interpret visual observations, and produce semantically aligned and physically executable behavior in embodied environments. 
+<!-- In particular, I am interested in developing model designs and learning algorithms that improve the performance, efficiency, reliability, and safety of embodied agents.  -->
 
-At CMU, I am working with Dr. [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and Dr. [Wenshan Wang](http://www.wangwenshan.com/) on Embodied AI, with a focus on Vision-and-Language Navigation. Before joining CMU, I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University in 2025. During my undergraduate studies, I focused on computer vision and was fortunate to work with Prof. [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage), Prof. [Wei Wang](https://scholar.xjtlu.edu.cn/en/persons/WeiWang03), and Prof. [Ming Xu](https://scholar.xjtlu.edu.cn/en/persons/MingXu).
+At CMU, I am working with Dr. [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and Dr. [Wenshan Wang](http://www.wangwenshan.com/) on Embodied Navigation. Before joining CMU, I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University in 2025. During my undergraduate studies, I focused on computer vision and worked with Prof. [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage), Prof. [Wei Wang](https://scholar.xjtlu.edu.cn/en/persons/WeiWang03), and Prof. [Ming Xu](https://scholar.xjtlu.edu.cn/en/persons/MingXu).
 
 My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/Muyi%20Bao%20CV.pdf) (updated in 2026.07.20) and my email is [muyib@andrew.cmu.edu](mailto:muyib@andrew.cmu.edu).
 
@@ -20,7 +21,7 @@ My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io
 
 
 <p style="color:red;">
-I am actively looking for Ph.D. opportunities starting in Fall 2027, with research interests in Embodied AI and multimodal foundation models for robotics.
+I am actively looking for Ph.D. opportunities starting in Fall 2027, with research interests in Embodied AI.
 </p>
 
 
@@ -35,7 +36,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
   <li><strong>[2025/06]</strong> 🎓 I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University.</li>
   <li><strong>[2025/02]</strong> 📄 <a href="https://github.com/BaoBao0926/AlexCapsNet">AlexCapsNet</a> was accepted by <em>IEEE Access</em>.</li>
   <li><strong>[2024/12]</strong> 📄 <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">Performance Analysis of Rendering Optimization</a> was accepted by <em>UIC 2024</em>.</li>
-  <li><strong>[2021/06]</strong> 🎓 I joined Xi'an Jiaotong Liverpool Unverisity as a Bachelor of Engineering in Computer Science and Technology .</li>
+  <li><strong>[2021/06]</strong> 🎓 I joined Xi'an Jiaotong Liverpool Unverisity as a Bachelor of Engineering in Computer Science and Technology.</li>
 </ul>
 
 <style>
@@ -266,6 +267,8 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <a href="https://anonymous.4open.science/w/IntentNav/">
             Project Page
           </a>
+          &nbsp;/&nbsp;
+          <a href="https://arxiv.org/abs/2606.08029">Paper</a>
         </div>
       </td>
     </tr>

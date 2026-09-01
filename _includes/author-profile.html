@@ -6,13 +6,39 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
+  {% assign author_avatar = author.avatar %}
+  {% if author.avatars %}
+    {% assign author_avatar = author.avatars | first %}
+    {% capture random_avatar_paths %}{% for avatar in author.avatars %}{% if forloop.first == false %}|{% endif %}{% if avatar contains "://" %}{{ avatar }}{% else %}{{ avatar | prepend: "/images/" | prepend: base_path }}{% endif %}{% endfor %}{% endcapture %}
+  {% endif %}
+
   <div class="author__avatar">
-    {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+    {% if author_avatar contains "://" %}
+      <img src="{{ author_avatar }}" alt="{{ author.name }}" fetchpriority="high"{% if author.avatars %} data-random-avatars="{{ random_avatar_paths | strip | escape }}"{% endif %} />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+      <img src="{{ author_avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high"{% if author.avatars %} data-random-avatars="{{ random_avatar_paths | strip | escape }}"{% endif %} />
     {% endif %}
   </div>
+
+  {% if author.avatars %}
+  <script>
+    (function () {
+      var script = document.currentScript;
+      var wrapper = script && script.previousElementSibling;
+      var image = wrapper && wrapper.querySelector("img[data-random-avatars]");
+      if (!image) {
+        return;
+      }
+
+      var avatars = image.getAttribute("data-random-avatars").split("|").filter(Boolean);
+      if (avatars.length < 2) {
+        return;
+      }
+
+      image.src = avatars[Math.floor(Math.random() * avatars.length)];
+    }());
+  </script>
+  {% endif %}
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>

@@ -23,6 +23,9 @@ repository               : BaoBao0926
 author:
   # Biographic information
   avatar           : "profile.png"
+  avatars:
+    - "profile.png"
+    - "profile_2.jpg"
   name             : "Muyi Bao(包沐亦)"
   pronouns         : # example: "she/her"  
   # bio              : "Short biography for the left-hand sidebar"
