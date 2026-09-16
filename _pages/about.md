@@ -186,15 +186,22 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </a>
 
         <div class="research-authors">
-          <strong>Muyi Bao</strong>
+          <strong>Muyi Bao</strong><sup>1</sup>,
+          Hang Xu<sup>1</sup>,
+          Jingfan Tang<sup>1</sup>,
+          Zihan Liu<sup>1</sup>,
+          Yuxin Cai<sup>2</sup>,
+          Chen Lv<sup>2</sup>,
+          Wenshan Wang<sup>1</sup>,
+          Ji Zhang<sup>1</sup>
         </div>
 
         <div class="research-venue">
-          <em>Preprint, 2026</em>
+          <em>arXiv, 2026</em>
         </div>
 
         <p class="research-description">
-          Map2Route is a human-curated benchmark for compositional language-grounded route planning over pre-built semantic maps. Given a semantic map, an initial robot position, and a natural-language instruction without explicit goal coordinates, the task is to generate a complete route that resolves relational, comparative, and nested references while satisfying ordered must-pass regions, must-avoid requirements, scoped soft preferences, and path-efficiency constraints. The benchmark contains 1,000 evaluation episodes across 40 multi-room scenes, plus a separate 50-episode development set. Alongside the benchmark, Grounding2Route combines executable code-as-grounding, verification-guided repair, and scope-aware planning, achieving 0.667/0.375 HCS and 0.53/0.29 SPL on Easy/Hard episodes and 72.22% HCS in real-world trials.
+          Map2Route is a human-curated benchmark for compositional language-grounded route planning over pre-built semantic maps. Given a semantic map, an initial robot position, and a natural-language instruction without explicit goal coordinates, the task is to generate a complete route that faithfully realizes the instruction. We evaluate several representative baselines and Grounding2Route, our proposed method, showing that Map2Route remains a challenging benchmark and is still far from saturated.
         </p>
 
         <div class="research-links">
