@@ -29,6 +29,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 <h2 class="about-wide-item">News</h2>
 
 <ul class="news-list about-wide-item">
+  <li><strong>[2026/09]</strong> 📄 <a href="https://anonymous.4open.science/w/IntentNav/">IntentNav</a> was accepted to <em>CoRL 2026</em>.</li>
   <li><strong>[2026/02]</strong> 📄 Our survey paper, <a href="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main">Vision Mamba in Remote Sensing</a>, was accepted by <em>Remote Sensing</em>.</li>
   <li><strong>[2025/11]</strong> 📄 <a href="https://aclanthology.org/2025.findings-emnlp.1229/">NUMINA</a> was accepted to <em>Findings of EMNLP 2025</em>.</li>
   <li><strong>[2025/08]</strong> 🎓 I joined Carnegie Mellon University as an M.S. student in Electrical and Computer Engineering.</li>
@@ -167,6 +168,47 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 <table class="research-table about-wide-item">
   <tbody>
 
+    <!-- Map2Route -->
+    <tr>
+      <td class="research-image-cell">
+        <img
+          class="research-image"
+          src="https://raw.githubusercontent.com/BaoBao0926/Map2Route/main/git_resources/figures/teaser.png"
+          alt="Map2Route overview"
+        />
+      </td>
+
+      <td class="research-text-cell">
+        <a href="https://baobao0926.github.io/Map2Route/">
+          <span class="research-title">
+            Map2Route: Benchmarking Compositional Language-Grounded Route Planning over Semantic Maps
+          </span>
+        </a>
+
+        <div class="research-authors">
+          <strong>Muyi Bao</strong>
+        </div>
+
+        <div class="research-venue">
+          <em>Preprint, 2026</em>
+        </div>
+
+        <p class="research-description">
+          Map2Route is a human-curated benchmark for compositional language-grounded route planning over pre-built semantic maps. Given a semantic map, an initial robot position, and a natural-language instruction without explicit goal coordinates, the task is to generate a complete route that resolves relational, comparative, and nested references while satisfying ordered must-pass regions, must-avoid requirements, scoped soft preferences, and path-efficiency constraints. The benchmark contains 1,000 evaluation episodes across 40 multi-room scenes, plus a separate 50-episode development set. Alongside the benchmark, Grounding2Route combines executable code-as-grounding, verification-guided repair, and scope-aware planning, achieving 0.667/0.375 HCS and 0.53/0.29 SPL on Easy/Hard episodes and 72.22% HCS in real-world trials.
+        </p>
+
+        <div class="research-links">
+          <a href="https://baobao0926.github.io/Map2Route/">Project Page</a>
+          &nbsp;/&nbsp;
+          <a href="https://github.com/BaoBao0926/Map2Route/blob/main/Map2Route.pdf">Paper</a>
+          &nbsp;/&nbsp;
+          <a href="https://github.com/BaoBao0926/Map2Route">Code</a>
+          &nbsp;/&nbsp;
+          <a href="https://huggingface.co/datasets/Muyiaaaa/Map2Route">Dataset</a>
+        </div>
+      </td>
+    </tr>
+
     <!-- Goal2Pixel -->
     <tr>
       <td class="research-image-cell">
@@ -256,7 +298,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <div class="research-venue">
-          <em>Arxiv, 2026</em>
+          <em>CoRL 2026</em>
         </div>
 
         <p class="research-description">
