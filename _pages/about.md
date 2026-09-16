@@ -140,6 +140,31 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     margin-top: 6px;
   }
 
+  .research-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    align-items: center;
+    margin: -0.4em auto 0.9em;
+    font-size: 0.82em;
+  }
+
+  .research-filter label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #494e52;
+    cursor: pointer;
+  }
+
+  .research-filter input {
+    accent-color: #52adc8;
+  }
+
+  .research-project-row[hidden] {
+    display: none !important;
+  }
+
   @media screen and (max-width: 768px) {
     .research-table,
     .research-table tbody,
@@ -165,11 +190,17 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
 <h2 class="about-wide-item">Research Projects</h2>
 
+<div class="research-filter about-wide-item" aria-label="Research project filters">
+  <label><input type="checkbox" name="research-filter" value="all" checked> All</label>
+  <label><input type="checkbox" name="research-filter" value="embodied-navigation"> Embodied Navigation</label>
+  <label><input type="checkbox" name="research-filter" value="computer-vision"> Computer Vision</label>
+</div>
+
 <table class="research-table about-wide-item">
   <tbody>
 
     <!-- Map2Route -->
-    <tr>
+    <tr class="research-project-row" data-category="embodied-navigation">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -186,7 +217,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </a>
 
         <div class="research-authors">
-          <strong>Muyi Bao</strong><sup>1</sup>,
+          <strong>Muyi Bao</strong>,
           Hang Xu<sup>1</sup>,
           Jingfan Tang<sup>1</sup>,
           Zihan Liu<sup>1</sup>,
@@ -217,7 +248,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- Goal2Pixel -->
-    <tr>
+    <tr class="research-project-row" data-category="embodied-navigation">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -269,7 +300,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- IntentNav -->
-    <tr>
+    <tr class="research-project-row" data-category="embodied-navigation">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -305,7 +336,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <div class="research-venue">
-          <em>CoRL 2026</em>
+          <em>Conference on Robot Learning (CoRL), 2026</em>
         </div>
 
         <p class="research-description">
@@ -324,7 +355,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
 
     <!-- Vision Mamba Survey -->
-    <tr>
+    <tr class="research-project-row" data-category="computer-vision">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -371,7 +402,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- FTCFormer -->
-    <tr>
+    <tr class="research-project-row" data-category="computer-vision">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -419,7 +450,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- NUMINA -->
-    <tr>
+    <tr class="research-project-row" data-category="computer-vision">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -471,7 +502,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- ASP-VMUNet -->
-    <tr>
+    <tr class="research-project-row" data-category="computer-vision">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -515,7 +546,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- Rendering Optimization -->
-    <tr>
+    <tr class="research-project-row" data-category="other">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -562,7 +593,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- AlexCapsNet -->
-    <tr>
+    <tr class="research-project-row" data-category="computer-vision">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -603,3 +634,48 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
   </tbody>
 </table>
+
+<script>
+  (function () {
+    const filters = Array.from(document.querySelectorAll('input[name="research-filter"]'));
+    const rows = Array.from(document.querySelectorAll(".research-project-row"));
+    const allFilter = filters.find((filter) => filter.value === "all");
+
+    if (!filters.length || !rows.length || !allFilter) return;
+
+    function updateProjects(changedFilter) {
+      if (changedFilter === allFilter && allFilter.checked) {
+        filters.forEach((filter) => {
+          if (filter !== allFilter) filter.checked = false;
+        });
+      }
+
+      if (changedFilter !== allFilter && changedFilter.checked) {
+        allFilter.checked = false;
+      }
+
+      const selectedCategories = filters
+        .filter((filter) => filter !== allFilter && filter.checked)
+        .map((filter) => filter.value);
+
+      if (!selectedCategories.length) {
+        allFilter.checked = true;
+        rows.forEach((row) => {
+          row.hidden = false;
+        });
+        return;
+      }
+
+      rows.forEach((row) => {
+        const rowCategories = (row.dataset.category || "").split(/\s+/);
+        row.hidden = !selectedCategories.some((category) => rowCategories.includes(category));
+      });
+    }
+
+    filters.forEach((filter) => {
+      filter.addEventListener("change", () => updateProjects(filter));
+    });
+
+    updateProjects(allFilter);
+  })();
+</script>
