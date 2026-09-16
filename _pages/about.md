@@ -119,14 +119,22 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     font-weight: 700;
   }
 
+  .research-note {
+    font-size: 0.45em;
+    font-weight: 400;
+    color: #6f777d;
+  }
+
   .research-authors {
     margin-top: 5px;
     line-height: 1.4;
+    font-size: 0.88em;
   }
 
   .research-venue {
     margin-top: 5px;
     line-height: 1.4;
+    font-size: 0.88em;
   }
 
   .page__content p.research-description {
@@ -188,7 +196,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
   }
 </style>
 
-<h2 class="about-wide-item">Research Projects</h2>
+<h2 class="about-wide-item">Research Projects <span class="research-note">(<sup>*</sup> Equal contribution)</span></h2>
 
 <div class="research-filter about-wide-item" aria-label="Research project filters">
   <label><input type="checkbox" name="research-filter" value="all" checked> All</label>
@@ -218,13 +226,13 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
         <div class="research-authors">
           <strong>Muyi Bao</strong>,
-          Hang Xu<sup>1</sup>,
-          Jingfan Tang<sup>1</sup>,
-          Zihan Liu<sup>1</sup>,
-          Yuxin Cai<sup>2</sup>,
-          Chen Lv<sup>2</sup>,
-          Wenshan Wang<sup>1</sup>,
-          Ji Zhang<sup>1</sup>
+          Hang Xu,
+          Jingfan Tang,
+          Zihan Liu,
+          Yuxin Cai,
+          Chen Lv,
+          Wenshan Wang,
+          Ji Zhang
         </div>
 
         <div class="research-venue">
@@ -277,16 +285,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           Wenshan Wang
         </div>
 
-        <div>
-          <small><sup>*</sup> Equal contribution</small>
-        </div>
-
         <div class="research-venue">
           <em>arXiv, 2026</em>
         </div>
 
         <p class="research-description">
-          Goal2Pixel reformulates Vision-and-Language Navigation in Continuous Environments (VLN-CE) as a pure navigable-pixel grounding problem, using the image plane as a unified spatial interface between VLM reasoning and robot motion. For history representation, Goal2Pixel introduces Visibility-Aware Keyframe Memory (ViKeyMem), cutting training/inference time by around 50%. Goal2Pixel further incorporates semantic directive embeddings and coordinate-aware auxiliary losses to better adapt the VLM to VLN-CE. Goal2Pixel achieves 54.1% SR and 52.5% SPL on R2R-CE Val-Unseen with only 7.75 VLM calls per episode — 6× fewer than action prediction baselines.
+          Goal2Pixel reformulates Vision-and-Language Navigation in Continuous Environments (VLN-CE) as a pure navigable-pixel grounding problem, using the image plane as a unified spatial interface between VLM reasoning and robot motion. For history representation, Goal2Pixel introduces Visibility-Aware Keyframe Memory (ViKeyMem), cutting training/inference time by around 50%. Goal2Pixel achieves 54.1%/48.1% SR on R2R-CE/RxR.
         </p>
 
         <div class="research-links">
@@ -331,16 +335,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           Chen Lv
         </div>
 
-        <div>
-          <small><sup>*</sup> Equal contribution</small>
-        </div>
-
         <div class="research-venue">
           <em>Conference on Robot Learning (CoRL), 2026</em>
         </div>
 
         <p class="research-description">
-          IntentNav learns human-like ObjectNav policies from 23,767 human demonstrations by converting low-level trajectories into 2.36 million candidate-level waypoint supervision samples, without relying on oracle shortest paths. The model unifies frontier exploration and target commitment in a BEV-grounded patial-visual decision space and achieves 53.8% SR on MP3D, 70.5% SR on HM3D-v1, and 82.2% SR on HM3D-v2. The same 2B VLM checkpoint further transfers zero-shot to wheeled, quadruped, and humanoid robots without additional VLM fine-tuning.
+          IntentNav learns human-like ObjectNav policies from 2.36 million samples, without relying on oracle shortest paths. The model unifies frontier exploration and target commitment in a BEV-grounded spatial-visual decision space and achieves 53.8% SR on MP3D, 70.5% SR on HM3D-v1, and 82.2% SR on HM3D-v2.
         </p>
 
         <div class="research-links">
@@ -388,7 +388,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          This is the first survey to systematically review approximately 120+ Mamba-based studies in remote sensing. It provides a structured overview of the field, covering preliminary knowledge, Vision Mamba backbones, micro- and macro-level architectural advancements, downstream applications, and key challenges and future research directions.
+          This is the first survey to systematically review approximately 120+ Mamba-based studies in remote sensing. It provides a structured overview of the field organized into seven parts, covering foundations, model architectures, downstream applications, and future research directions.
         </p>
 
         <div class="research-links">
@@ -429,16 +429,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           Wei Wang
         </div>
 
-        <div>
-          <small><sup>*</sup> Equal contribution</small>
-        </div>
-
         <div class="research-venue">
           <em>European Conference on Artificial Intelligence (ECAI), 2025</em>
         </div>
 
         <p class="research-description">
-          FTCFormer introduces a semantic-aware, clustering-based token downsampling mechanism that dynamically allocates more tokens to informative image regions and fewer tokens to less important areas. Evaluated on 32 image classification datasets across diverse domains, FTCFormer consistently outperforms the TCFormer baseline, achieving average accuracy improvements of 1.43% on fine-grained datasets, 1.09% on natural image datasets, 0.97% on medical  datasets, and 0.55% on remote sensing datasets.
+          FTCFormer introduces a clustering-based token downsampling mechanism that dynamically allocates more tokens to informative image regions and fewer tokens to less important areas. Evaluated on 32 image classification datasets across diverse domains, FTCFormer consistently outperforms the TCFormer baseline.
         </p>
 
         <div class="research-links">
@@ -479,18 +475,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           Yutao Yue
         </div>
 
-        <div>
-          <small><sup>*</sup> Equal contribution</small>
-        </div>
-
         <div class="research-venue">
           <em>Findings of EMNLP, 2025</em>
         </div>
 
         <p class="research-description">
-          NUMINA is a large-scale benchmark for evaluating fine-grained spatial understanding and numerical reasoning in 3D indoor environments. It contains 74,526 question-answer pairs across fact validation, prompt matching, and numerical inference tasks, with 62.0% of the questions
-          involving quantity, distance, or volume reasoning. Human inspection of 20,000 samples achieves a 99.5% correctness rate, while evaluated models obtain below 3% TA@5 on precise distance and volume estimation, demonstrating the substantial limitations of current models in 3D
-          numerical reasoning.
+          NUMINA is a large-scale benchmark for fine-grained spatial understanding and numerical reasoning in 3D indoor environments. It contains 74,526 question-answer pairs across fact validation, prompt matching, and numerical inference, revealing clear limitations of current models on precise quantity, distance, and volume reasoning.
         </p>
 
         <div class="research-links">
@@ -534,7 +524,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          ASP-VMUNet introduces a hybrid CNN-Mamba architecture for skin lesion segmentation, featuring: 1) an atrous scan strategy to suppress background interference and enlarge the receptive field; 2) a shift-round operation for cross-segment feature interaction; and 3) attention-based fusion of local and global features. Evaluated on PH2 and ISIC 2016-2018, ASP-VMUNet achieves state-of-the-art performance, outperforming the second-best method by 1.08%, 1.02%, 1.36%, and 0.21% in mIoU across the four datasets, respectively.
+          ASP-VMUNet introduces a hybrid CNN-Mamba architecture for skin lesion segmentation, featuring: 1) an atrous scan strategy to suppress background interference and enlarge the receptive field; 2) a shift-round operation for cross-segment feature interaction; and 3) attention-based fusion of local and global features. ASP-VMUNet achieves state-of-the-art performance on PH2/ISIC 2016-2018.
         </p>
 
         <div class="research-links">
@@ -579,7 +569,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          This work presents a systematic comparison of three geometry rendering optimization systems: Unity Global's Level of Detail, Tuanjie Engine's  Virtual Geometry, and Unreal Engine 5's Nanite. Using benchmark scenes with ten 3D models containing three million polygons each, the study evaluates FPS, GPU, CPU, and memory usage across multiple viewing distances. The results show that Nanite achieves the best overall performance, while Tuanjie's Virtual Geometry outperforms Unity's LOD for distant objects but performs worse at close viewing distances.
+          This work compares Unity Global's Level of Detail, Tuanjie Engine's Virtual Geometry, and Unreal Engine 5's Nanite across FPS, GPU, CPU, and memory usage. The results show that Nanite achieves the best overall performance, while Tuanjie's Virtual Geometry is stronger than Unity LOD at distant views but weaker at close range.
         </p>
 
         <div class="research-links">
@@ -621,7 +611,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </div>
 
         <p class="research-description">
-          AlexCapsNet integrates AlexNet-based deep feature extraction with CapsNet to improve classification on complex images with background noise. Across MNIST, Fashion-MNIST, SVHN, and CIFAR-10, it achieves accuracies of 99.66%, 93.27%, 95.33%, and 83.67%, outperforming the original CapsNet by an average of 5.16% accuracy. Experiments on seven datasets further show that removing  CapsNet's reconstruction module improves robustness on datasets containing complex backgrounds.
+          AlexCapsNet combines AlexNet-based feature extraction with CapsNet to improve image classification under background noise. Across seven datasets, it improves robustness over the original CapsNet, and removing the reconstruction module further benefits complex-background settings.
         </p>
 
         <div class="research-links">
