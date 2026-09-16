@@ -244,11 +244,11 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </p>
 
         <div class="research-links">
-          <a href="https://baobao0926.github.io/Map2Route/">Project Page</a>
-          &nbsp;/&nbsp;
           <a href="https://github.com/BaoBao0926/Map2Route/blob/main/Map2Route.pdf">Paper</a>
           &nbsp;/&nbsp;
           <a href="https://github.com/BaoBao0926/Map2Route">Code</a>
+          &nbsp;/&nbsp;
+          <a href="https://baobao0926.github.io/Map2Route/">Project Page</a>
           &nbsp;/&nbsp;
           <a href="https://huggingface.co/datasets/Muyiaaaa/Map2Route">Dataset</a>
         </div>
@@ -294,11 +294,11 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </p>
 
         <div class="research-links">
-          <a href="https://baobao0926.github.io/Goal2Pixel/">Project Page</a>
-          &nbsp;/&nbsp;
           <a href="https://arxiv.org/abs/2606.01621">Paper</a>
           &nbsp;/&nbsp;
           <a href="https://github.com/BaoBao0926/Goal2Pixel">Code</a>
+          &nbsp;/&nbsp;
+          <a href="https://baobao0926.github.io/Goal2Pixel/">Project Page</a>
         </div>
       </td>
     </tr>
@@ -344,11 +344,11 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </p>
 
         <div class="research-links">
+          <a href="https://arxiv.org/abs/2606.08029">Paper</a>
+          &nbsp;/&nbsp;
           <a href="https://anonymous.4open.science/w/IntentNav/">
             Project Page
           </a>
-          &nbsp;/&nbsp;
-          <a href="https://arxiv.org/abs/2606.08029">Paper</a>
         </div>
       </td>
     </tr>
@@ -395,7 +395,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <a href="https://arxiv.org/abs/2505.00630">Paper</a>
           &nbsp;/&nbsp;
           <a href="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing">
-            Repository
+            Code
           </a>
         </div>
       </td>
@@ -487,6 +487,8 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <a href="https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1229.pdf">
             Paper
           </a>
+          &nbsp;/&nbsp;
+          <a href="https://github.com/fengshun124/NUMINA">Code</a>
         </div>
       </td>
     </tr>
@@ -576,7 +578,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <a href="https://ieeexplore.ieee.org/abstract/document/10925167">Paper</a>
           &nbsp;/&nbsp;
           <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">
-            Repository
+            Code
           </a>
         </div>
       </td>
