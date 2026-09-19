@@ -15,7 +15,7 @@ I am currently an M.S. student in Electrical and Computer Engineering at Carnegi
 
 At CMU, I am working with Dr. [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and Dr. [Wenshan Wang](http://www.wangwenshan.com/) on Embodied Navigation. Before joining CMU, I received my B.Eng. degree in Computer Science and Technology from Xi'an Jiaotong-Liverpool University in 2025. During my undergraduate studies, I focused on computer vision and worked with Prof. [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage), Prof. [Wei Wang](https://scholar.xjtlu.edu.cn/en/persons/WeiWang03), and Prof. [Ming Xu](https://scholar.xjtlu.edu.cn/en/persons/MingXu).
 
-My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/Muyi_Bao_CV.pdf) (updated in 2026.07.20) and my email is [muyib@andrew.cmu.edu](mailto:muyib@andrew.cmu.edu).
+My resume can be found [here](https://github.com/BaoBao0926/BaoBao0926.github.io/blob/master/assets/Muyi_Bao_CV.pdf) (updated in 2026.9.18) and my email is [muyib@andrew.cmu.edu](mailto:muyib@andrew.cmu.edu).
 
 </div>
 
