@@ -244,7 +244,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         </p>
 
         <div class="research-links">
-          <a href="https://github.com/BaoBao0926/Map2Route/blob/main/Map2Route.pdf">Paper</a>
+          <a href="https://arxiv.org/abs/2609.17910">Paper</a>
           &nbsp;/&nbsp;
           <a href="https://github.com/BaoBao0926/Map2Route">Code</a>
           &nbsp;/&nbsp;
