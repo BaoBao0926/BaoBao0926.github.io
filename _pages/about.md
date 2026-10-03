@@ -29,6 +29,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 <h2 class="about-wide-item">News</h2>
 
 <ul class="news-list about-wide-item">
+  <li><strong>[2026/10]</strong> 📈 My Google Scholar citations reached 100 on Oct. 2, 2026.</li>
   <li><strong>[2026/09]</strong> 📄 <a href="https://anonymous.4open.science/w/IntentNav/">IntentNav</a> was accepted to <em>CoRL 2026</em>.</li>
   <li><strong>[2026/02]</strong> 📄 Our survey paper, <a href="https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing/tree/main">Vision Mamba in Remote Sensing</a>, was accepted by <em>Remote Sensing</em>.</li>
   <li><strong>[2025/11]</strong> 📄 <a href="https://aclanthology.org/2025.findings-emnlp.1229/">NUMINA</a> was accepted to <em>Findings of EMNLP 2025</em>.</li>
