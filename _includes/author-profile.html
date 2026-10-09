@@ -35,7 +35,65 @@
         return;
       }
 
-      image.src = avatars[Math.floor(Math.random() * avatars.length)];
+      var storageKey = "author-avatar-rotation:" + JSON.stringify(avatars);
+      var state = { queue: [], last: null };
+
+      function readState() {
+        try {
+          var saved = JSON.parse(localStorage.getItem(storageKey));
+          if (saved && Array.isArray(saved.queue) &&
+              saved.queue.length <= avatars.length &&
+              saved.queue.every(function (avatar, index, queue) {
+                return avatars.indexOf(avatar) !== -1 && queue.indexOf(avatar) === index;
+              }) && avatars.indexOf(saved.last) !== -1) {
+            state = saved;
+          }
+        } catch (error) {
+          // Keep rotating in memory when browser storage is unavailable.
+        }
+      }
+
+      function nextAvatar() {
+        readState();
+        if (!state.queue.length) {
+          state.queue = avatars.slice();
+          for (var i = state.queue.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temporary = state.queue[i];
+            state.queue[i] = state.queue[j];
+            state.queue[j] = temporary;
+          }
+          // Avoid repeating the last photo at the start of a new round.
+          if (state.queue[0] === state.last) {
+            var swapIndex = 1 + Math.floor(Math.random() * (state.queue.length - 1));
+            var first = state.queue[0];
+            state.queue[0] = state.queue[swapIndex];
+            state.queue[swapIndex] = first;
+          }
+        }
+
+        state.last = state.queue.shift();
+        image.src = state.last;
+        try {
+          localStorage.setItem(storageKey, JSON.stringify(state));
+        } catch (error) {
+          // Clicking still works without persistent storage.
+        }
+      }
+
+      image.style.cursor = "pointer";
+      image.setAttribute("role", "button");
+      image.setAttribute("tabindex", "0");
+      image.setAttribute("title", "Click to switch profile photo");
+      image.setAttribute("aria-label", image.alt + ": switch profile photo");
+      image.addEventListener("click", nextAvatar);
+      image.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          nextAvatar();
+        }
+      });
+      nextAvatar();
     }());
   </script>
   {% endif %}
