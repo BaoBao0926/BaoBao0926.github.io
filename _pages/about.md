@@ -107,9 +107,9 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
   .research-image {
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
-    max-height: 260px;
+    max-height: 130px;
     object-fit: contain;
     border-radius: 4px;
   }
