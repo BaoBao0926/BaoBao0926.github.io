@@ -94,20 +94,20 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
   }
 
   .research-image-cell {
-    width: 44%;
+    width: 22%;
     padding: 16px 20px 24px 0;
     vertical-align: middle;
   }
 
   .research-text-cell {
-    width: 56%;
+    width: 78%;
     padding: 16px 0 24px 8px;
     vertical-align: middle;
   }
 
   .research-image {
     display: block;
-    width: 50%;
+    width: 100%;
     height: auto;
     max-height: 130px;
     object-fit: contain;
@@ -192,6 +192,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     }
 
     .research-image {
+      width: 50%;
       max-height: none;
     }
   }
