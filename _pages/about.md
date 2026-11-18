@@ -227,13 +227,14 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
   <label><input type="checkbox" name="research-filter" value="all" checked> All</label>
   <label><input type="checkbox" name="research-filter" value="embodied-navigation"> Embodied Navigation</label>
   <label><input type="checkbox" name="research-filter" value="computer-vision"> Computer Vision</label>
+  <label><input type="checkbox" id="research-first-author" checked> First author (incl. co-first)</label>
 </div>
 
 <table class="research-table about-wide-item">
   <tbody>
 
     <!-- Map2Route -->
-    <tr class="research-project-row" data-category="embodied-navigation">
+    <tr class="research-project-row" data-category="embodied-navigation" data-first-author="true">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -284,7 +285,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- Goal2Pixel -->
-    <tr class="research-project-row" data-category="embodied-navigation">
+    <tr class="research-project-row" data-category="embodied-navigation" data-first-author="true">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -335,7 +336,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- IntentNav -->
-    <tr class="research-project-row" data-category="embodied-navigation">
+    <tr class="research-project-row" data-category="embodied-navigation" data-first-author="false">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -389,7 +390,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
 
     <!-- Vision Mamba Survey -->
-    <tr class="research-project-row" data-category="computer-vision">
+    <tr class="research-project-row" data-category="computer-vision" data-first-author="true">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -439,7 +440,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- FTCFormer -->
-    <tr class="research-project-row" data-category="computer-vision">
+    <tr class="research-project-row" data-category="computer-vision" data-first-author="true">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -486,7 +487,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- NUMINA -->
-    <tr class="research-project-row" data-category="computer-vision">
+    <tr class="research-project-row" data-category="computer-vision" data-first-author="false">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -537,7 +538,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- ASP-VMUNet -->
-    <tr class="research-project-row" data-category="computer-vision">
+    <tr class="research-project-row" data-category="computer-vision" data-first-author="true">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -584,7 +585,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- Rendering Optimization -->
-    <tr class="research-project-row" data-category="other">
+    <tr class="research-project-row" data-category="other" data-first-author="true">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -634,7 +635,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     </tr>
 
     <!-- AlexCapsNet -->
-    <tr class="research-project-row" data-category="computer-vision">
+    <tr class="research-project-row" data-category="computer-vision" data-first-author="true">
       <td class="research-image-cell">
         <img
           class="research-image"
@@ -684,6 +685,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     const filters = Array.from(document.querySelectorAll('input[name="research-filter"]'));
     const rows = Array.from(document.querySelectorAll(".research-project-row"));
     const allFilter = filters.find((filter) => filter.value === "all");
+    const firstAuthorFilter = document.getElementById("research-first-author");
 
     if (!filters.length || !rows.length || !allFilter) return;
 
@@ -694,7 +696,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
         });
       }
 
-      if (changedFilter !== allFilter && changedFilter.checked) {
+      if (filters.includes(changedFilter) && changedFilter !== allFilter && changedFilter.checked) {
         allFilter.checked = false;
       }
 
@@ -704,21 +706,21 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
       if (!selectedCategories.length) {
         allFilter.checked = true;
-        rows.forEach((row) => {
-          row.hidden = false;
-        });
-        return;
       }
 
       rows.forEach((row) => {
         const rowCategories = (row.dataset.category || "").split(/\s+/);
-        row.hidden = !selectedCategories.some((category) => rowCategories.includes(category));
+        const matchesCategory = !selectedCategories.length ||
+          selectedCategories.some((category) => rowCategories.includes(category));
+        const matchesAuthorship = !firstAuthorFilter.checked || row.dataset.firstAuthor === "true";
+        row.hidden = !(matchesCategory && matchesAuthorship);
       });
     }
 
     filters.forEach((filter) => {
       filter.addEventListener("change", () => updateProjects(filter));
     });
+    firstAuthorFilter.addEventListener("change", () => updateProjects(firstAuthorFilter));
 
     updateProjects(allFilter);
   })();
