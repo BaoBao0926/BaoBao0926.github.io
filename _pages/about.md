@@ -138,8 +138,24 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
     font-size: 0.88em;
   }
 
+  .research-details {
+    margin-top: 10px;
+  }
+
+  .research-details summary {
+    width: fit-content;
+    cursor: pointer;
+    color: #52adc8;
+    font-size: 0.80em;
+  }
+
+  .research-details summary:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+
   .page__content p.research-description {
-    margin-top: 12px;
+    margin-top: 8px;
     margin-bottom: 8px;
     line-height: 1.35;
     font-size: 0.80em;
@@ -241,9 +257,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <em>arXiv, 2026</em>
         </div>
 
-        <p class="research-description">
+        <details class="research-details">
+          <summary>Description</summary>
+          <p class="research-description">
           Map2Route is a human-curated benchmark for compositional language-grounded route planning over pre-built semantic maps. Given a semantic map, an initial robot position, and a natural-language instruction without explicit goal coordinates, the task is to generate a complete route that faithfully realizes the instruction. We evaluate several representative baselines and Grounding2Route, our proposed method, showing that Map2Route remains a challenging benchmark and is still far from saturated.
-        </p>
+          </p>
+        </details>
 
         <div class="research-links">
           <a href="https://arxiv.org/abs/2609.17910">Paper</a>
@@ -291,9 +310,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <em>arXiv, 2026</em>
         </div>
 
-        <p class="research-description">
+        <details class="research-details">
+          <summary>Description</summary>
+          <p class="research-description">
           Goal2Pixel reformulates Vision-and-Language Navigation in Continuous Environments (VLN-CE) as a pure navigable-pixel grounding problem, using the image plane as a unified spatial interface between VLM reasoning and robot motion. For history representation, Goal2Pixel introduces Visibility-Aware Keyframe Memory (ViKeyMem), cutting training/inference time by around 50%. Goal2Pixel achieves 54.1%/48.1% SR on R2R-CE/RxR.
-        </p>
+          </p>
+        </details>
 
         <div class="research-links">
           <a href="https://arxiv.org/abs/2606.01621">Paper</a>
@@ -341,9 +363,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <em>Conference on Robot Learning (CoRL), 2026</em>
         </div>
 
-        <p class="research-description">
+        <details class="research-details">
+          <summary>Description</summary>
+          <p class="research-description">
           IntentNav learns human-like ObjectNav policies from 2.36 million samples, without relying on oracle shortest paths. The model unifies frontier exploration and target commitment in a BEV-grounded spatial-visual decision space and achieves 53.8% SR on MP3D, 70.5% SR on HM3D-v1, and 82.2% SR on HM3D-v2.
-        </p>
+          </p>
+        </details>
 
         <div class="research-links">
           <a href="https://arxiv.org/abs/2606.08029">Paper</a>
@@ -389,9 +414,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <em>Remote Sensing, 2026</em>
         </div>
 
-        <p class="research-description">
+        <details class="research-details">
+          <summary>Description</summary>
+          <p class="research-description">
           This is the first survey to systematically review approximately 120+ Mamba-based studies in remote sensing. It provides a structured overview of the field organized into seven parts, covering foundations, model architectures, downstream applications, and future research directions.
-        </p>
+          </p>
+        </details>
 
         <div class="research-links">
           <a href="https://arxiv.org/abs/2505.00630">Paper</a>
@@ -435,9 +463,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <em>European Conference on Artificial Intelligence (ECAI), 2025</em>
         </div>
 
-        <p class="research-description">
+        <details class="research-details">
+          <summary>Description</summary>
+          <p class="research-description">
           FTCFormer introduces a clustering-based token downsampling mechanism that dynamically allocates more tokens to informative image regions and fewer tokens to less important areas. Evaluated on 32 image classification datasets across diverse domains, FTCFormer consistently outperforms the TCFormer baseline.
-        </p>
+          </p>
+        </details>
 
         <div class="research-links">
           <a href="https://arxiv.org/abs/2507.10283">Paper</a>
@@ -481,9 +512,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <em>Findings of EMNLP, 2025</em>
         </div>
 
-        <p class="research-description">
+        <details class="research-details">
+          <summary>Description</summary>
+          <p class="research-description">
           NUMINA is a large-scale benchmark for fine-grained spatial understanding and numerical reasoning in 3D indoor environments. It contains 74,526 question-answer pairs across fact validation, prompt matching, and numerical inference, revealing clear limitations of current models on precise quantity, distance, and volume reasoning.
-        </p>
+          </p>
+        </details>
 
         <div class="research-links">
           <a href="https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1229.pdf">
@@ -527,9 +561,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <em>arXiv, 2025</em>
         </div>
 
-        <p class="research-description">
+        <details class="research-details">
+          <summary>Description</summary>
+          <p class="research-description">
           ASP-VMUNet introduces a hybrid CNN-Mamba architecture for skin lesion segmentation, featuring: 1) an atrous scan strategy to suppress background interference and enlarge the receptive field; 2) a shift-round operation for cross-segment feature interaction; and 3) attention-based fusion of local and global features. ASP-VMUNet achieves state-of-the-art performance on PH2/ISIC 2016-2018.
-        </p>
+          </p>
+        </details>
 
         <div class="research-links">
           <a href="https://arxiv.org/abs/2503.19427">Paper</a>
@@ -572,9 +609,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           </em>
         </div>
 
-        <p class="research-description">
+        <details class="research-details">
+          <summary>Description</summary>
+          <p class="research-description">
           This work compares Unity Global's Level of Detail, Tuanjie Engine's Virtual Geometry, and Unreal Engine 5's Nanite across FPS, GPU, CPU, and memory usage. The results show that Nanite achieves the best overall performance, while Tuanjie's Virtual Geometry is stronger than Unity LOD at distant views but weaker at close range.
-        </p>
+          </p>
+        </details>
 
         <div class="research-links">
           <a href="https://ieeexplore.ieee.org/abstract/document/10925167">Paper</a>
@@ -614,9 +654,12 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
           <em>IEEE Access, 2025</em>
         </div>
 
-        <p class="research-description">
+        <details class="research-details">
+          <summary>Description</summary>
+          <p class="research-description">
           AlexCapsNet combines AlexNet-based feature extraction with CapsNet to improve image classification under background noise. Across seven datasets, it improves robustness over the original CapsNet, and removing the reconstruction module further benefits complex-background settings.
-        </p>
+          </p>
+        </details>
 
         <div class="research-links">
           <a href="https://ieeexplore.ieee.org/abstract/document/10900363">Paper</a>
