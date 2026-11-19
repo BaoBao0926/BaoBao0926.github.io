@@ -225,9 +225,9 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
 
 <div class="research-filter about-wide-item" aria-label="Research project filters">
   <label><input type="checkbox" name="research-filter" value="all" checked> All</label>
+  <label><input type="checkbox" id="research-first-author" checked> First author (incl. co-first)</label>
   <label><input type="checkbox" name="research-filter" value="embodied-navigation"> Embodied Navigation</label>
   <label><input type="checkbox" name="research-filter" value="computer-vision"> Computer Vision</label>
-  <label><input type="checkbox" id="research-first-author" checked> First author (incl. co-first)</label>
 </div>
 
 <table class="research-table about-wide-item">
