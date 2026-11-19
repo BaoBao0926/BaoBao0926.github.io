@@ -115,7 +115,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
   }
 
   .research-title {
-    font-size: 1.05em;
+    font-size: 0.95em;
     line-height: 1.25;
     font-weight: 700;
   }
