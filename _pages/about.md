@@ -129,7 +129,7 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
   .research-authors {
     margin-top: 5px;
     line-height: 1.4;
-    font-size: 0.88em;
+    font-size: 0.80em;
   }
 
   .research-venue {
@@ -244,11 +244,9 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://baobao0926.github.io/Map2Route/">
-          <span class="research-title">
-            Map2Route: Benchmarking Compositional Language-Grounded Route Planning over Semantic Maps
-          </span>
-        </a>
+        <span class="research-title">
+          Map2Route: Benchmarking Compositional Language-Grounded Route Planning over Semantic Maps
+        </span>
 
         <div class="research-authors">
           <strong>Muyi Bao</strong>,
@@ -295,11 +293,9 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://baobao0926.github.io/Goal2Pixel/">
-          <span class="research-title">
-            Goal2Pixel: Grounding Goals to Pixels for Vision-Language Navigation
-          </span>
-        </a>
+        <span class="research-title">
+          Goal2Pixel: Grounding Goals to Pixels for Vision-Language Navigation
+        </span>
 
         <div class="research-authors">
           <strong>Muyi Bao</strong><sup>*</sup>,
@@ -346,11 +342,9 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://anonymous.4open.science/w/IntentNav/">
-          <span class="research-title">
-            IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations
-          </span>
-        </a>
+        <span class="research-title">
+          IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations
+        </span>
 
         <div class="research-authors">
           Yuxin Cai<sup>*</sup>,
@@ -400,12 +394,10 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://arxiv.org/abs/2505.00630">
-          <span class="research-title">
-            Vision Mamba in Remote Sensing: A Comprehensive Survey of Techniques,
-            Applications and Outlook
-          </span>
-        </a>
+        <span class="research-title">
+          Vision Mamba in Remote Sensing: A Comprehensive Survey of Techniques,
+          Applications and Outlook
+        </span>
 
         <div class="research-authors">
           <strong>Muyi Bao</strong>,
@@ -450,11 +442,9 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://arxiv.org/abs/2507.10283">
-          <span class="research-title">
-            FTCFormer: Fuzzy Token Clustering Transformer for Image Classification
-          </span>
-        </a>
+        <span class="research-title">
+          FTCFormer: Fuzzy Token Clustering Transformer for Image Classification
+        </span>
 
         <div class="research-authors">
           <strong>Muyi Bao</strong><sup>*</sup>,
@@ -497,12 +487,10 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1229.pdf">
-          <span class="research-title">
-            NUMINA: A Natural Understanding Benchmark for Multi-dimensional
-            Intelligence and Numerical Reasoning Abilities
-          </span>
-        </a>
+        <span class="research-title">
+          NUMINA: A Natural Understanding Benchmark for Multi-dimensional
+          Intelligence and Numerical Reasoning Abilities
+        </span>
 
         <div class="research-authors">
           Changyu Zeng<sup>*</sup>,
@@ -548,12 +536,10 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://arxiv.org/abs/2503.19427">
-          <span class="research-title">
-            ASP-VMUNet: Atrous Shifted Parallel Vision Mamba U-Net for Skin Lesion
-            Segmentation
-          </span>
-        </a>
+        <span class="research-title">
+          ASP-VMUNet: Atrous Shifted Parallel Vision Mamba U-Net for Skin Lesion
+          Segmentation
+        </span>
 
         <div class="research-authors">
           <strong>Muyi Bao</strong>,
@@ -595,12 +581,10 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://github.com/BaoBao0926/Comparative-Performance-Analysis-of-Rendering-Optimization-Method">
-          <span class="research-title">
-            Comparative Performance Analysis of Rendering Optimization Methods in
-            Unity Tuanjie Engine, Unity Global and Unreal Engine
-          </span>
-        </a>
+        <span class="research-title">
+          Comparative Performance Analysis of Rendering Optimization Methods in
+          Unity Tuanjie Engine, Unity Global and Unreal Engine
+        </span>
 
         <div class="research-authors">
           <strong>Muyi Bao</strong>,
@@ -645,12 +629,10 @@ I am actively looking for Ph.D. opportunities starting in Fall 2027, with resear
       </td>
 
       <td class="research-text-cell">
-        <a href="https://github.com/BaoBao0926/AlexCapsNet">
-          <span class="research-title">
-            AlexCapsNet: An Integrated Architecture for Image Classification with
-            Background Noise
-          </span>
-        </a>
+        <span class="research-title">
+          AlexCapsNet: An Integrated Architecture for Image Classification with
+          Background Noise
+        </span>
 
         <div class="research-authors">
           <strong>Muyi Bao</strong>,
